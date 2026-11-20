@@ -22,4 +22,4 @@ just = "1.59.0"
 # (registry vs git). Pinned because the advisory database format and the default lint set move
 # between releases: an unpinned `cargo binstall cargo-deny` would let the same commit pass on one
 # machine and fail on another. Verified with `mise which cargo-deny`; `deny.toml` is the config.
-cargo-deny = "0.20.2"
+cargo-deny = "0.21.0"
