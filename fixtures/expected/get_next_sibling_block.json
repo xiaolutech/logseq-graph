@@ -1,0 +1,35 @@
+{
+  "args": [
+    "6affb0f3-2bdc-4370-b988-de40b988303b"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getNextSiblingBlock",
+  "result": {
+    "content": "There are two ways to attach workflow mark to your task(block)",
+    "format": "markdown",
+    "id": 5380,
+    "left": {
+      "id": 5373
+    },
+    "page": {
+      "id": 485
+    },
+    "parent": {
+      "id": 5372
+    },
+    "pathRefs": [
+      {
+        "id": 485
+      }
+    ],
+    "uuid": "6affb0f3-7e87-4e6d-b7fe-777f9268df8c"
+  },
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

@@ -1,0 +1,822 @@
+{
+  "args": [
+    "Tasks"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getPageBlocksTree",
+  "result": [
+    {
+      "children": [],
+      "content": "type:: [[Feature]]\nalias:: Todos\nplatforms:: [[All Platforms]]\n\n",
+      "format": "markdown",
+      "id": 5384,
+      "invalidProperties": [],
+      "left": {
+        "id": 485
+      },
+      "level": 1,
+      "page": {
+        "id": 485
+      },
+      "parent": {
+        "id": 485
+      },
+      "pathRefs": [
+        {
+          "id": 454
+        },
+        {
+          "id": 457
+        },
+        {
+          "id": 458
+        },
+        {
+          "id": 485
+        },
+        {
+          "id": 600
+        },
+        {
+          "id": 5358
+        }
+      ],
+      "preBlock?": true,
+      "properties": {
+        "alias": [
+          "Todos"
+        ],
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesOrder": [
+        "type",
+        "alias",
+        "platforms"
+      ],
+      "propertiesTextValues": {
+        "alias": "Todos",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "refs": [
+        {
+          "id": 454
+        },
+        {
+          "id": 457
+        },
+        {
+          "id": 458
+        },
+        {
+          "id": 600
+        },
+        {
+          "id": 5358
+        }
+      ],
+      "uuid": "6affb0f3-78a5-4283-bebf-6786d1ec76b7"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "content": "Logseq comes with two built-in flavors to mark your block with built-in workflow mark keywords and manage your tasks:\n+ `LATER` -> `NOW` -> `DONE` flavor (default)\n+ `TODO` -> `DOING` -> `DONE` flavor \n+ You can toggle between those two flavors in setting page",
+          "format": "markdown",
+          "id": 5373,
+          "left": {
+            "id": 5372
+          },
+          "level": 2,
+          "page": {
+            "id": 485
+          },
+          "parent": {
+            "id": 5372
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            }
+          ],
+          "uuid": "6affb0f3-2bdc-4370-b988-de40b988303b"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "when editing the block, press `Ctrl/Cmd+enter` to cycle through the workflow mark",
+              "format": "markdown",
+              "id": 5379,
+              "left": {
+                "id": 5380
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5380
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-cb26-462d-9c71-36f1caf82ccb"
+            },
+            {
+              "children": [],
+              "content": "type these mark as command directly, eg `/LATER` `/NOW` `/DONE` `/TODO` etc..",
+              "format": "markdown",
+              "id": 5367,
+              "left": {
+                "id": 5379
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5380
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-d0cd-4f68-9d87-c9372e335552"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "LATER do grocery",
+                  "format": "markdown",
+                  "id": 5369,
+                  "left": {
+                    "id": 5386
+                  },
+                  "level": 4,
+                  "marker": "LATER",
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5386
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 6
+                    },
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "id": 6
+                    }
+                  ],
+                  "uuid": "6affb0f3-410b-4033-b6b7-9f1df651b8e4"
+                },
+                {
+                  "children": [],
+                  "content": "NOW play with Logseq",
+                  "format": "markdown",
+                  "id": 5365,
+                  "left": {
+                    "id": 5369
+                  },
+                  "level": 4,
+                  "marker": "NOW",
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5386
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 5
+                    },
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "id": 5
+                    }
+                  ],
+                  "uuid": "6affb0f3-4f23-4136-9b4a-c1ce115fcd38"
+                },
+                {
+                  "children": [],
+                  "content": "DONE watch Doctor Who",
+                  "format": "markdown",
+                  "id": 5375,
+                  "left": {
+                    "id": 5365
+                  },
+                  "level": 4,
+                  "marker": "DONE",
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5386
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 7
+                    },
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "id": 7
+                    }
+                  ],
+                  "uuid": "6affb0f3-7599-4c26-b823-55c733f27c73"
+                }
+              ],
+              "content": "Some examples:\ntodo:: 1621908710666",
+              "format": "markdown",
+              "id": 5386,
+              "left": {
+                "id": 5367
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5380
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "properties": {
+                "todo": 1621908710666
+              },
+              "propertiesOrder": [
+                "todo"
+              ],
+              "propertiesTextValues": {
+                "todo": "1621908710666"
+              },
+              "uuid": "6affb0f3-f49e-465d-810e-0584f39c0c5b"
+            }
+          ],
+          "content": "There are two ways to attach workflow mark to your task(block)",
+          "format": "markdown",
+          "id": 5380,
+          "left": {
+            "id": 5373
+          },
+          "level": 2,
+          "page": {
+            "id": 485
+          },
+          "parent": {
+            "id": 5372
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            }
+          ],
+          "uuid": "6affb0f3-7e87-4e6d-b7fe-777f9268df8c"
+        }
+      ],
+      "content": "## Usage",
+      "format": "markdown",
+      "id": 5372,
+      "left": {
+        "id": 5384
+      },
+      "level": 1,
+      "page": {
+        "id": 485
+      },
+      "parent": {
+        "id": 485
+      },
+      "pathRefs": [
+        {
+          "id": 485
+        }
+      ],
+      "properties": {
+        "heading": 2
+      },
+      "propertiesOrder": [],
+      "uuid": "6affb0f3-e796-4514-adf9-d6f357bbdb1a"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "{{embed ((60ac5b08-d4bb-49de-b415-e63fcf29c59f)) }}",
+                  "format": "markdown",
+                  "id": 5385,
+                  "left": {
+                    "id": 5368
+                  },
+                  "level": 4,
+                  "macros": [
+                    {
+                      "id": 5387
+                    }
+                  ],
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5368
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 485
+                    },
+                    {
+                      "id": 5357
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "id": 4852
+                    },
+                    {
+                      "id": 5357
+                    }
+                  ],
+                  "uuid": "6affb0f3-d1c5-4aac-82bf-b6319173ea12"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "LATER [#A] research balalah is a top priority",
+                      "format": "markdown",
+                      "id": 5370,
+                      "left": {
+                        "id": 5383
+                      },
+                      "level": 5,
+                      "marker": "LATER",
+                      "page": {
+                        "id": 485
+                      },
+                      "parent": {
+                        "id": 5383
+                      },
+                      "pathRefs": [
+                        {
+                          "id": 6
+                        },
+                        {
+                          "id": 15
+                        },
+                        {
+                          "id": 485
+                        }
+                      ],
+                      "priority": "A",
+                      "refs": [
+                        {
+                          "id": 6
+                        },
+                        {
+                          "id": 15
+                        }
+                      ],
+                      "uuid": "6affb0f3-d2e5-447b-998d-77e493ceaea8"
+                    },
+                    {
+                      "children": [],
+                      "content": "LATER [#C] do grocery has lowest priority",
+                      "format": "markdown",
+                      "id": 5381,
+                      "left": {
+                        "id": 5370
+                      },
+                      "level": 5,
+                      "marker": "LATER",
+                      "page": {
+                        "id": 485
+                      },
+                      "parent": {
+                        "id": 5383
+                      },
+                      "pathRefs": [
+                        {
+                          "id": 6
+                        },
+                        {
+                          "id": 10
+                        },
+                        {
+                          "id": 485
+                        }
+                      ],
+                      "priority": "C",
+                      "refs": [
+                        {
+                          "id": 6
+                        },
+                        {
+                          "id": 10
+                        }
+                      ],
+                      "uuid": "6affb0f3-8e3b-41aa-83b2-ac57bbf56a13"
+                    }
+                  ],
+                  "content": "Example:",
+                  "format": "markdown",
+                  "id": 5383,
+                  "left": {
+                    "id": 5385
+                  },
+                  "level": 4,
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5368
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "uuid": "6affb0f3-8cb7-491c-9f14-ce56a3b6e666"
+                }
+              ],
+              "content": "Logseq comes with three built-in priority mark to help you manage with task priorities",
+              "format": "markdown",
+              "id": 5368,
+              "left": {
+                "id": 5366
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5366
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-1739-4b77-9806-1d8d8c0dad45"
+            }
+          ],
+          "content": "### Priorities",
+          "format": "markdown",
+          "id": 5366,
+          "left": {
+            "id": 5363
+          },
+          "level": 2,
+          "page": {
+            "id": 485
+          },
+          "parent": {
+            "id": 5363
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            }
+          ],
+          "properties": {
+            "heading": 3
+          },
+          "propertiesOrder": [],
+          "uuid": "6affb0f3-18c0-4d06-8fe5-62d2a1876c36"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "eg: finish reading 1984 by 29th of May\nDEADLINE: <2021-05-29 Sat>",
+                  "deadline": 20210529,
+                  "format": "markdown",
+                  "id": 5362,
+                  "left": {
+                    "id": 5382
+                  },
+                  "level": 4,
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5382
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "uuid": "6affb0f3-b64b-41c4-9ed5-fadb7778250e"
+                }
+              ],
+              "content": "You can leverage command `/Deadline` to setup a deadline for your task",
+              "format": "markdown",
+              "id": 5382,
+              "left": {
+                "id": 5364
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5364
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-81fc-4cac-849b-b587267a4f11"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "eg: send John a birthday card Monday\nSCHEDULED: <2021-05-31 Mon>",
+                  "format": "markdown",
+                  "id": 5378,
+                  "left": {
+                    "id": 5374
+                  },
+                  "level": 4,
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5374
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "scheduled": 20210531,
+                  "uuid": "6affb0f3-212c-4407-9f29-96954f43752b"
+                }
+              ],
+              "content": "You can leverage command `/Scheduled` to setup a scheduled task",
+              "format": "markdown",
+              "id": 5374,
+              "left": {
+                "id": 5382
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5364
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-ad5e-4edb-a151-bb9f2d1397b2"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "eg: daily exercise routine at 7am\nSCHEDULED: <2021-05-26 Wed 7:00 .+1d>",
+                  "format": "markdown",
+                  "id": 5377,
+                  "left": {
+                    "id": 5360
+                  },
+                  "level": 4,
+                  "page": {
+                    "id": 485
+                  },
+                  "parent": {
+                    "id": 5360
+                  },
+                  "pathRefs": [
+                    {
+                      "id": 485
+                    }
+                  ],
+                  "repeated?": true,
+                  "scheduled": 20210526,
+                  "uuid": "6affb0f3-ea53-4b88-b794-4a8226d039db"
+                }
+              ],
+              "content": "Both of above commands support to mark the task as repeated:\nafter typing the command and click `Add repeater` in the date picker",
+              "format": "markdown",
+              "id": 5360,
+              "left": {
+                "id": 5374
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5364
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                }
+              ],
+              "uuid": "6affb0f3-8d84-4427-bfce-748626be9f73"
+            }
+          ],
+          "content": "### Deadline and Scheduled",
+          "format": "markdown",
+          "id": 5364,
+          "left": {
+            "id": 5366
+          },
+          "level": 2,
+          "page": {
+            "id": 485
+          },
+          "parent": {
+            "id": 5363
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            }
+          ],
+          "properties": {
+            "heading": 3
+          },
+          "propertiesOrder": [],
+          "uuid": "6affb0f3-7c22-403b-8663-516c20418b6e"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "{{embed ((60acdeba-b3fd-4f90-ab54-3093caa4d5fa))}}",
+              "format": "markdown",
+              "id": 5371,
+              "left": {
+                "id": 5376
+              },
+              "level": 3,
+              "macros": [
+                {
+                  "id": 5388
+                }
+              ],
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5376
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                },
+                {
+                  "id": 5359
+                }
+              ],
+              "refs": [
+                {
+                  "id": 3961
+                },
+                {
+                  "id": 5359
+                }
+              ],
+              "uuid": "6affb0f3-0d91-432b-a502-0a450cd2f6ce"
+            },
+            {
+              "children": [],
+              "content": "you can toggle this off by [[setting/enable timetracking]]",
+              "format": "markdown",
+              "id": 5361,
+              "left": {
+                "id": 5371
+              },
+              "level": 3,
+              "page": {
+                "id": 485
+              },
+              "parent": {
+                "id": 5376
+              },
+              "pathRefs": [
+                {
+                  "id": 485
+                },
+                {
+                  "id": 922
+                },
+                {
+                  "id": 924
+                }
+              ],
+              "refs": [
+                {
+                  "id": 922
+                },
+                {
+                  "id": 924
+                }
+              ],
+              "uuid": "6affb0f3-f1c7-4300-8475-fe890392e35a"
+            }
+          ],
+          "content": "### Time tracker\nid:: 60af74c1-62f8-434a-827c-abc6d2a71734",
+          "format": "markdown",
+          "id": 5376,
+          "left": {
+            "id": 5364
+          },
+          "level": 2,
+          "page": {
+            "id": 485
+          },
+          "parent": {
+            "id": 5363
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            }
+          ],
+          "properties": {
+            "heading": 3,
+            "id": "60af74c1-62f8-434a-827c-abc6d2a71734"
+          },
+          "propertiesOrder": [
+            "id"
+          ],
+          "propertiesTextValues": {
+            "id": "60af74c1-62f8-434a-827c-abc6d2a71734"
+          },
+          "uuid": "60af74c1-62f8-434a-827c-abc6d2a71734"
+        }
+      ],
+      "content": "## Functionality",
+      "format": "markdown",
+      "id": 5363,
+      "left": {
+        "id": 5372
+      },
+      "level": 1,
+      "page": {
+        "id": 485
+      },
+      "parent": {
+        "id": 485
+      },
+      "pathRefs": [
+        {
+          "id": 485
+        }
+      ],
+      "properties": {
+        "heading": 2
+      },
+      "propertiesOrder": [],
+      "uuid": "6affb0f3-51f1-4567-8761-24412a33a3b2"
+    }
+  ],
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

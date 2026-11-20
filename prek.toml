@@ -1,0 +1,148 @@
+minimum_prek_version = "0.5.10"
+default_install_hook_types = ["pre-commit", "pre-push", "commit-msg"]
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  # Fixtures are byte-for-byte captures; the two hooks that rewrite files must never touch them.
+  { id = "trailing-whitespace", exclude = "^fixtures/" },
+  { id = "end-of-file-fixer", exclude = "^fixtures/" },
+  { id = "check-merge-conflict" },
+  { id = "check-case-conflict" },
+  { id = "check-toml" },
+  { id = "check-yaml" },
+  { id = "check-added-large-files" },
+  { id = "detect-private-key" },
+]
+
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "perf-doc"
+name = "PERFORMANCE.md row for hot-path changes"
+language = "system"
+entry = "python3 scripts/check_perf_doc.py"
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+[[repos.hooks]]
+id = "cargo-fmt"
+name = "cargo fmt --all --check"
+language = "system"
+entry = "cargo fmt --all --check"
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+[[repos.hooks]]
+id = "cargo-clippy"
+name = "cargo clippy --workspace --all-targets -- -D warnings"
+language = "system"
+entry = "cargo clippy --workspace --all-targets -- -D warnings"
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+# `-p logseq-graph --no-deps`, not `--workspace`: the `crates/server` bin named `logseq-graph`
+# and the `crates/graph` lib target `logseq_graph` both write `target/doc/index.html`, which
+# Cargo rejects as an output filename collision under `-D warnings`.
+[[repos.hooks]]
+id = "cargo-doc"
+name = "cargo doc -D warnings (single package: bin and lib targets collide in target/doc)"
+language = "system"
+entry = 'cargo doc -p logseq-graph --no-deps'
+env = { RUSTDOCFLAGS = "-D warnings" }
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+[[repos.hooks]]
+id = "typos"
+name = "typos (spelling)"
+language = "system"
+entry = 'typos --force-exclude'
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+[[repos.hooks]]
+id = "commit-msg-check"
+name = "commit subject shape (docs/commit-message.md)"
+language = "system"
+entry = "python3 scripts/check_commit_msg.py"
+pass_filenames = true
+stages = ["commit-msg"]
+
+# The commit-msg hook only ever sees the message being written, so a branch that already carries
+# a badly-shaped commit passes it. This one looks at everything the push carries. `origin/main`
+# rather than a local branch, because the local one can be behind; the script fails closed when
+# the ref does not resolve, so a missing fetch is a red push rather than a silent pass.
+[[repos.hooks]]
+id = "commit-subject-range"
+name = "commit subject shape over the pushed range"
+language = "system"
+entry = "python3 scripts/check_commit_msg.py --range origin/main...HEAD"
+pass_filenames = false
+always_run = true
+stages = ["pre-push"]
+
+[[repos.hooks]]
+id = "perf-doc-self-test"
+name = "check_perf_doc.py --self-test"
+language = "system"
+entry = "python3 scripts/check_perf_doc.py --self-test"
+pass_filenames = false
+always_run = true
+stages = ["pre-commit"]
+
+# Filtered by path, and therefore at `pre-commit`. cargo-deny's verdict has exactly two inputs, and
+# the hook fires when either one changes:
+#
+#   the dependency graph: every `Cargo.toml` in the tree, plus `Cargo.lock`. Today that is
+#     Cargo.toml, crates/graph/Cargo.toml, crates/server/Cargo.toml.
+#   the rules: `deny.toml` — the licence allow list, the `ignore`d advisories, which bans are
+#     `warn` or `deny`, and the source rules. Changing a rule changes the verdict as surely as
+#     adding a crate does, so the file that states the rules is an input to the verdict too.
+#
+# `deny.toml` is the only policy input. This repository has no `.cargo/config.toml`; one can
+# redirect where a crate comes from, so it would have to join the pattern if it ever appeared.
+#
+# `(^|/)(Cargo\.(toml|lock)|deny\.toml)$` describes those inputs by shape, not by count: every
+# manifest in the tree, whichever crates exist when you read this, and the one `deny.toml`. A crate
+# added tomorrow is covered without touching this line. The leading group is not decoration —
+# without it only the root files would fire, and a dependency added under `crates/` would have gone
+# unchecked.
+#
+# Every other commit skips the hook for free. `always_run = false` is what lets `files` filter at
+# all; with it true the hook runs every time regardless.
+# That filtering is what makes `pre-commit` affordable: cargo-deny fetches the RUSTSEC advisory
+# database on every run and dependency changes are rare, so the network cost lands on exactly the
+# commits that need the answer — the moment a licence, a duplicate version, or a source changes.
+# A warm `~/.cargo/advisory-dbs` is not a fallback, it still fetches: an offline commit that
+# touches one of these five files is red (exit 1 before any check runs). Recovery: be online and
+# commit again, or run
+# `just deny` to see the same result and to warm the cache — the cache alone does not make an
+# offline run pass.
+# Known gap: a path filter answers "did you change an input", not "did the world change". A new CVE
+# published while `Cargo.lock` sits untouched triggers nothing, so `just deny` stays a manual run.
+# Hot run: ~1.3s. Cold (empty advisory cache): ~2.1s.
+[[repos.hooks]]
+id = "cargo-deny"
+name = "cargo deny check (advisories, licences, bans, sources)"
+language = "system"
+entry = "cargo deny check"
+files = '(^|/)(Cargo\.(toml|lock)|deny\.toml)$'
+pass_filenames = false
+always_run = false
+stages = ["pre-commit"]
+
+[[repos.hooks]]
+id = "cargo-test"
+name = "cargo test --workspace"
+language = "system"
+entry = "cargo test --workspace"
+pass_filenames = false
+always_run = true
+stages = ["pre-push"]

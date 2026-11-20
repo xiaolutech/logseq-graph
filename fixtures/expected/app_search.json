@@ -1,0 +1,59 @@
+{
+  "args": [
+    "Presentation"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.App.search",
+  "result": {
+    "blocks": [
+      {
+        "block/content": "presentation bugs",
+        "block/page": 509,
+        "block/uuid": "6affb0f2-6882-4d87-be84-71ca3971f785"
+      },
+      {
+        "block/content": "wrong blocks order in presentation mode",
+        "block/page": 1197,
+        "block/uuid": "6affb0f2-388e-4c18-8028-a1be37f6bbc6"
+      },
+      {
+        "block/content": "title:: slide\nalias:: presentation\ntype:: [[feature]]\nplatforms:: [[all platforms]]",
+        "block/page": 479,
+        "block/uuid": "6affb0f7-ced1-4079-95ef-624da7618719"
+      },
+      {
+        "block/content": "more precise language highlight in both code editor and presentation mode",
+        "block/page": 509,
+        "block/uuid": "6affb0f2-a2b5-4042-8486-02a035bb71c5"
+      },
+      {
+        "block/content": "now it's possible to see all the blocks in the presentation:",
+        "block/page": 509,
+        "block/uuid": "6affb0f2-6866-4e5b-82a1-fc6014db0158"
+      }
+    ],
+    "files": [],
+    "has-more?": false,
+    "pages": [
+      "Presentation"
+    ],
+    "pages-content": [
+      {
+        "block/snippet": "title:: slide\nalias::  $pfts_2lqh>$ presentation $<pfts_2lqh$ \ntype:: [[feature]]\nplatforms:: [[all platforms]]\n\n- logseq's slide feature is powered by the awesome [reveal.js](https://revealjs.com/).\n  background-image:: https://images...",
+        "block/uuid": "6affb0f7-959d-432f-b71f-6a70ffcfdb4f"
+      },
+      {
+        "block/snippet": "...app frozen when export a block to either markdown or opml\n\t\t- wrong blocks order in  $pfts_2lqh>$ presentation $<pfts_2lqh$  mode\n\t\t- app crashes for some pages due to wrong parsing\n\t- [[enhancement]]\n\t\t- don't hide both the...",
+        "block/uuid": "6affb0f2-b9b8-4098-a8b3-da7ba19419c1"
+      }
+    ]
+  },
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

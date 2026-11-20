@@ -1,0 +1,19 @@
+# `typos` configuration. The tool is pinned in `mise.toml`; the pre-commit hook and CI run it
+# with `--force-exclude` so the rules below hold even when a path is passed explicitly.
+
+[files]
+# Byte-exact parser fixtures and the captured official answers must never be scanned: a fix
+# there is a fixture rewrite. Commit hashes are not words either, but they live in files that
+# are scanned, so they are word entries below rather than excludes.
+extend-exclude = ["fixtures"]
+
+[default.extend-words]
+# Legitimate technical terms this repository uses that the dictionary does not know.
+edn = "edn"
+EDN = "EDN"
+nd = "nd"
+ba = "ba"
+CHEC = "CHEC"
+seeked = "seeked"
+unparseable = "unparseable"
+measure = "measure"

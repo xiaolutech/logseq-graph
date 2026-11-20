@@ -1,0 +1,1661 @@
+{
+  "source": {
+    "parser_repository": "https://github.com/logseq/og",
+    "parser_commit": "6e7afa8eb040686ff057156ee877193b581dd369",
+    "parser_entry": "logseq.graph-parser.cli/parse-graph",
+    "corpus_repository": "https://github.com/logseq/docs",
+    "corpus_tag": "v0.9.2",
+    "graph_files_read": 303,
+    "digest": "fnv1a64-64 sum over each content block's normalized text",
+    "normalization": [
+      "a leading Markdown heading marker (1-6 #, then one space) is removed from each block text",
+      "a page's pre-block and the page entity itself are not content blocks"
+    ]
+  },
+  "pages": [
+    {
+      "path": "journals/2020_09_14.md",
+      "name": "Sep 14th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_19.md",
+      "name": "Sep 19th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_20.md",
+      "name": "Sep 20th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_21.md",
+      "name": "Sep 21st, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_22.md",
+      "name": "Sep 22nd, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_23.md",
+      "name": "Sep 23rd, 2020",
+      "blocks": 1,
+      "digest": "be6768e7604e90b1"
+    },
+    {
+      "path": "journals/2020_09_24.md",
+      "name": "Sep 24th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_25.md",
+      "name": "Sep 25th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_28.md",
+      "name": "Sep 28th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_09_29.md",
+      "name": "Sep 29th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_01.md",
+      "name": "Oct 1st, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_02.md",
+      "name": "Oct 2nd, 2020",
+      "blocks": 3,
+      "digest": "6bfaaeabd1f98e2b"
+    },
+    {
+      "path": "journals/2020_10_03.md",
+      "name": "Oct 3rd, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_05.md",
+      "name": "Oct 5th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_06.md",
+      "name": "Oct 6th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_07.md",
+      "name": "Oct 7th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_09.md",
+      "name": "Oct 9th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_10.md",
+      "name": "Oct 10th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_11.md",
+      "name": "Oct 11th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_12.md",
+      "name": "Oct 12th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_16.md",
+      "name": "Oct 16th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_22.md",
+      "name": "Oct 22nd, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_23.md",
+      "name": "Oct 23rd, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_24.md",
+      "name": "Oct 24th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_26.md",
+      "name": "Oct 26th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_10_28.md",
+      "name": "Oct 28th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_06.md",
+      "name": "Nov 6th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_07.md",
+      "name": "Nov 7th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_11.md",
+      "name": "Nov 11th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_13.md",
+      "name": "Nov 13th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_17.md",
+      "name": "Nov 17th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_18.md",
+      "name": "Nov 18th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_26.md",
+      "name": "Nov 26th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_11_29.md",
+      "name": "Nov 29th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_12_05.md",
+      "name": "Dec 5th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_12_07.md",
+      "name": "Dec 7th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_12_16.md",
+      "name": "Dec 16th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2020_12_29.md",
+      "name": "Dec 29th, 2020",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_12.md",
+      "name": "Jan 12th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_13.md",
+      "name": "Jan 13th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_15.md",
+      "name": "Jan 15th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_16.md",
+      "name": "Jan 16th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_18.md",
+      "name": "Jan 18th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_19.md",
+      "name": "Jan 19th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_23.md",
+      "name": "Jan 23rd, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_24.md",
+      "name": "Jan 24th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_27.md",
+      "name": "Jan 27th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_28.md",
+      "name": "Jan 28th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_29.md",
+      "name": "Jan 29th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_30.md",
+      "name": "Jan 30th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_01_31.md",
+      "name": "Jan 31st, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_01.md",
+      "name": "Feb 1st, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_02.md",
+      "name": "Feb 2nd, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_05.md",
+      "name": "Feb 5th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_06.md",
+      "name": "Feb 6th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_07.md",
+      "name": "Feb 7th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_14.md",
+      "name": "Feb 14th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_15.md",
+      "name": "Feb 15th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_16.md",
+      "name": "Feb 16th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_17.md",
+      "name": "Feb 17th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_02_20.md",
+      "name": "Feb 20th, 2021",
+      "blocks": 1,
+      "digest": "a66328f00e8737e6"
+    },
+    {
+      "path": "journals/2021_02_26.md",
+      "name": "Feb 26th, 2021",
+      "blocks": 1,
+      "digest": "bbc2f943538305ab"
+    },
+    {
+      "path": "journals/2021_02_27.md",
+      "name": "Feb 27th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_01.md",
+      "name": "Mar 1st, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_02.md",
+      "name": "Mar 2nd, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_08.md",
+      "name": "Mar 8th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_15.md",
+      "name": "Mar 15th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_26.md",
+      "name": "Mar 26th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_03_27.md",
+      "name": "Mar 27th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_04_01.md",
+      "name": "Apr 1st, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_04_02.md",
+      "name": "Apr 2nd, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_04_19.md",
+      "name": "Apr 19th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_04_30.md",
+      "name": "Apr 30th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_07_14.md",
+      "name": "Jul 14th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "journals/2021_07_19.md",
+      "name": "Jul 19th, 2021",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "pages/Academic.md",
+      "name": "Academic",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Advanced Queries.md",
+      "name": "Advanced Queries",
+      "blocks": 112,
+      "digest": "66eb26a5f0e119ba"
+    },
+    {
+      "path": "pages/Advanced commands.md",
+      "name": "Advanced commands",
+      "blocks": 18,
+      "digest": "c3abc8d80ec2bd0f"
+    },
+    {
+      "path": "pages/Aliases and external links.md",
+      "name": "Aliases and external links",
+      "blocks": 5,
+      "digest": "7eb8c205f943d51a"
+    },
+    {
+      "path": "pages/All Platforms.md",
+      "name": "All Platforms",
+      "blocks": 6,
+      "digest": "2de12eed74adc7f0"
+    },
+    {
+      "path": "pages/All pages.md",
+      "name": "All pages",
+      "blocks": 9,
+      "digest": "15b17a3bbc6b3a11"
+    },
+    {
+      "path": "pages/Android.md",
+      "name": "Android",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Assets alias.md",
+      "name": "Assets alias",
+      "blocks": 15,
+      "digest": "2b593ad69788a197"
+    },
+    {
+      "path": "pages/Basic settings.md",
+      "name": "Basic settings",
+      "blocks": 11,
+      "digest": "91aac45f155aace5"
+    },
+    {
+      "path": "pages/Block Reference.md",
+      "name": "Block Reference",
+      "blocks": 8,
+      "digest": "5824fac17a12cee3"
+    },
+    {
+      "path": "pages/Built-in Properties.md",
+      "name": "Built-in Properties",
+      "blocks": 21,
+      "digest": "5b6be2bcfb731881"
+    },
+    {
+      "path": "pages/Calculator.md",
+      "name": "Calculator",
+      "blocks": 35,
+      "digest": "367d0d1d8e52f34d"
+    },
+    {
+      "path": "pages/Changelog.md",
+      "name": "Changelog",
+      "blocks": 1863,
+      "digest": "a5465ca0d85be069"
+    },
+    {
+      "path": "pages/Changelog_07_09.md",
+      "name": "Changelog_07_09",
+      "blocks": 554,
+      "digest": "fe49e3649be8a1f4"
+    },
+    {
+      "path": "pages/Class.md",
+      "name": "Class",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/ClojureScript Eval in a Block.md",
+      "name": "ClojureScript Eval in a Block",
+      "blocks": 11,
+      "digest": "cf61bb0d854edcc7"
+    },
+    {
+      "path": "pages/Cloze.md",
+      "name": "Cloze",
+      "blocks": 11,
+      "digest": "83528e8738e813a2"
+    },
+    {
+      "path": "pages/Command.md",
+      "name": "Command",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Commands.md",
+      "name": "Commands",
+      "blocks": 5,
+      "digest": "13bdf2f6b3e667a0"
+    },
+    {
+      "path": "pages/Community.md",
+      "name": "Community",
+      "blocks": 3,
+      "digest": "38195478808d4358"
+    },
+    {
+      "path": "pages/Community___Query Learning Sprint (Summer 2022).md",
+      "name": "Community/Query Learning Sprint (Summer 2022)",
+      "blocks": 62,
+      "digest": "fb3bfa2806c14a6a"
+    },
+    {
+      "path": "pages/Copy and Paste.md",
+      "name": "Copy and Paste",
+      "blocks": 13,
+      "digest": "2a02637f72c99df4"
+    },
+    {
+      "path": "pages/Custom theme.md",
+      "name": "Custom theme",
+      "blocks": 22,
+      "digest": "6352d9c6d22a1d12"
+    },
+    {
+      "path": "pages/Desktop.md",
+      "name": "Desktop",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Document syntax.md",
+      "name": "Document syntax",
+      "blocks": 1,
+      "digest": "17b183db4e09cd6c"
+    },
+    {
+      "path": "pages/Draw.md",
+      "name": "Draw",
+      "blocks": 5,
+      "digest": "f7a2fe0f6bf39724"
+    },
+    {
+      "path": "pages/Embed Media - Audio, Photos, Videos.md",
+      "name": "Embed Media - Audio, Photos, Videos",
+      "blocks": 98,
+      "digest": "750131afb2de751e"
+    },
+    {
+      "path": "pages/Export.md",
+      "name": "Export",
+      "blocks": 1,
+      "digest": "ed4ec95d0474f21a"
+    },
+    {
+      "path": "pages/Feature.md",
+      "name": "Feature",
+      "blocks": 11,
+      "digest": "42c10110f55229da"
+    },
+    {
+      "path": "pages/FeatureTag.md",
+      "name": "FeatureTag",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Features.md",
+      "name": "Features",
+      "blocks": 14,
+      "digest": "46ae9b76dc4e142a"
+    },
+    {
+      "path": "pages/Filename format.md",
+      "name": "Filename format",
+      "blocks": 77,
+      "digest": "54b342910320c134"
+    },
+    {
+      "path": "pages/Find in page.md",
+      "name": "Find in page",
+      "blocks": 5,
+      "digest": "cd28e87655b30dfa"
+    },
+    {
+      "path": "pages/Flashcards.md",
+      "name": "Flashcards",
+      "blocks": 26,
+      "digest": "3512a0d53849ca2e"
+    },
+    {
+      "path": "pages/Getting started with the Journals page.md",
+      "name": "Getting started with the Journals page",
+      "blocks": 7,
+      "digest": "8b44e8e0fdfe90e1"
+    },
+    {
+      "path": "pages/Git Auto-Commit.md",
+      "name": "Git Auto-Commit",
+      "blocks": 8,
+      "digest": "ec4a2cfa1473e78e"
+    },
+    {
+      "path": "pages/Global config.edn.md",
+      "name": "Global config.edn",
+      "blocks": 13,
+      "digest": "ec0f5fffca1a0af9"
+    },
+    {
+      "path": "pages/Global configuration.md",
+      "name": "Global configuration",
+      "blocks": 6,
+      "digest": "0fdd8283833d98e3"
+    },
+    {
+      "path": "pages/Glossary.md",
+      "name": "Glossary",
+      "blocks": 26,
+      "digest": "7b8ce8312a36742a"
+    },
+    {
+      "path": "pages/Headings.md",
+      "name": "Headings",
+      "blocks": 12,
+      "digest": "526cd3806fb956eb"
+    },
+    {
+      "path": "pages/Hiccup.md",
+      "name": "Hiccup",
+      "blocks": 5,
+      "digest": "5e077d3bb2b1f18d"
+    },
+    {
+      "path": "pages/How to create a Logseq graph using existing Markdown files.md",
+      "name": "How to create a Logseq graph using existing Markdown files",
+      "blocks": 9,
+      "digest": "b5e05faf9e80bda0"
+    },
+    {
+      "path": "pages/How to create a new graph.md",
+      "name": "How to create a new graph",
+      "blocks": 12,
+      "digest": "127c3c3b490aa9a1"
+    },
+    {
+      "path": "pages/How to create pages in Logseq.md",
+      "name": "How to create pages in Logseq",
+      "blocks": 21,
+      "digest": "e3f887a423a9041f"
+    },
+    {
+      "path": "pages/How to filter linked references.md",
+      "name": "How to filter linked references",
+      "blocks": 10,
+      "digest": "b312dabe9ad34bb3"
+    },
+    {
+      "path": "pages/How to sync your Logseq graph across devices.md",
+      "name": "How to sync your Logseq graph across devices",
+      "blocks": 3,
+      "digest": "d4d97bb25e1d1c6e"
+    },
+    {
+      "path": "pages/How to work with the right-hand sidebar.md",
+      "name": "How to work with the right-hand sidebar",
+      "blocks": 8,
+      "digest": "95a0ec5d6f1695e3"
+    },
+    {
+      "path": "pages/Import.md",
+      "name": "Import",
+      "blocks": 1,
+      "digest": "eca2469b13abf31e"
+    },
+    {
+      "path": "pages/Journals page.md",
+      "name": "Journals page",
+      "blocks": 1,
+      "digest": "aac26cf140598c44"
+    },
+    {
+      "path": "pages/Keyboard shortcuts.md",
+      "name": "Keyboard shortcuts",
+      "blocks": 25,
+      "digest": "794a4b305b1dc816"
+    },
+    {
+      "path": "pages/Knowledge Graph.md",
+      "name": "Knowledge Graph",
+      "blocks": 9,
+      "digest": "ab580c2b47c13296"
+    },
+    {
+      "path": "pages/Learn Datalog Today.md",
+      "name": "Learn Datalog Today",
+      "blocks": 15,
+      "digest": "64bd7f3a1a7e31ae"
+    },
+    {
+      "path": "pages/Left sidebar.md",
+      "name": "Left sidebar",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Linked References.md",
+      "name": "Linked References",
+      "blocks": 1,
+      "digest": "a40afc73ab231092"
+    },
+    {
+      "path": "pages/Local Http server.md",
+      "name": "Local Http server",
+      "blocks": 29,
+      "digest": "e0f4335f52f4b168"
+    },
+    {
+      "path": "pages/Logseq Protocol.md",
+      "name": "Logseq Protocol",
+      "blocks": 24,
+      "digest": "3ca192669913be4d"
+    },
+    {
+      "path": "pages/Logseq Sync.md",
+      "name": "Logseq Sync",
+      "blocks": 28,
+      "digest": "c19841485f6b6503"
+    },
+    {
+      "path": "pages/Logseq file and folder naming rules.md",
+      "name": "Logseq file and folder naming rules",
+      "blocks": 5,
+      "digest": "48c5373190fe6f96"
+    },
+    {
+      "path": "pages/Macros.md",
+      "name": "Macros",
+      "blocks": 15,
+      "digest": "1a0358008402daaf"
+    },
+    {
+      "path": "pages/Markdown.md",
+      "name": "Markdown",
+      "blocks": 53,
+      "digest": "7069ee3515f559af"
+    },
+    {
+      "path": "pages/Marketplace demo.md",
+      "name": "Marketplace demo",
+      "blocks": 1,
+      "digest": "fb957385c8258171"
+    },
+    {
+      "path": "pages/Marketplace.md",
+      "name": "Marketplace",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Migrate to Logseq Beta.md",
+      "name": "Migrate to Logseq Beta",
+      "blocks": 17,
+      "digest": "247341914b1468e4"
+    },
+    {
+      "path": "pages/Namespaces.md",
+      "name": "Namespaces",
+      "blocks": 1,
+      "digest": "a569055d2c16bbaa"
+    },
+    {
+      "path": "pages/New to Logseq%3F.md",
+      "name": "New to Logseq?",
+      "blocks": 1,
+      "digest": "a671c3f7671ebbca"
+    },
+    {
+      "path": "pages/OneStutteringMind.md",
+      "name": "OneStutteringMind",
+      "blocks": 2,
+      "digest": "342f475cbb33fdad"
+    },
+    {
+      "path": "pages/PDF highlights.md",
+      "name": "PDF highlights",
+      "blocks": 19,
+      "digest": "542a34d8474c88c6"
+    },
+    {
+      "path": "pages/Page and block embeds.md",
+      "name": "Page and block embeds",
+      "blocks": 2,
+      "digest": "f0d943498b025fb8"
+    },
+    {
+      "path": "pages/Page and block references.md",
+      "name": "Page and block references",
+      "blocks": 13,
+      "digest": "04fa6ac58be4bdd5"
+    },
+    {
+      "path": "pages/Page graph.md",
+      "name": "Page graph",
+      "blocks": 4,
+      "digest": "90394150f89b3bdb"
+    },
+    {
+      "path": "pages/Platform.md",
+      "name": "Platform",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Plugins 01.md",
+      "name": "Plugins 01",
+      "blocks": 24,
+      "digest": "eb28f1cba4a4a1b4"
+    },
+    {
+      "path": "pages/Plugins 02 - Build a mind map plugin.md",
+      "name": "Plugins 02 - Build a mind map plugin",
+      "blocks": 35,
+      "digest": "e8d1073ac6c7fafd"
+    },
+    {
+      "path": "pages/Plugins 101.md",
+      "name": "Plugins 101",
+      "blocks": 8,
+      "digest": "0e2bb43f747d0eb8"
+    },
+    {
+      "path": "pages/Plugins.md",
+      "name": "Plugins",
+      "blocks": 10,
+      "digest": "b531b5998e257613"
+    },
+    {
+      "path": "pages/Properties.md",
+      "name": "Properties",
+      "blocks": 35,
+      "digest": "4cc9956fe874359e"
+    },
+    {
+      "path": "pages/Property.md",
+      "name": "Property",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Publish Web.md",
+      "name": "Publish Web",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Publishing (Desktop App Only).md",
+      "name": "Publishing (Desktop App Only)",
+      "blocks": 14,
+      "digest": "a4b32ebe583c7915"
+    },
+    {
+      "path": "pages/Publishing.md",
+      "name": "Publishing",
+      "blocks": 25,
+      "digest": "132b3cad64a6c754"
+    },
+    {
+      "path": "pages/Queries.md",
+      "name": "Queries",
+      "blocks": 28,
+      "digest": "33e72d1ee8df855b"
+    },
+    {
+      "path": "pages/Query Builder.md",
+      "name": "Query Builder",
+      "blocks": 11,
+      "digest": "6e8a71162c84b104"
+    },
+    {
+      "path": "pages/Query table.md",
+      "name": "Query table",
+      "blocks": 4,
+      "digest": "88f6291107bbb225"
+    },
+    {
+      "path": "pages/Query table___function.md",
+      "name": "Query table/function",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "pages/Query.md",
+      "name": "Query",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Refactoring_of_logseq.md",
+      "name": "The Refactoring Of Logseq",
+      "blocks": 9,
+      "digest": "f2ef74cb6571bd8f"
+    },
+    {
+      "path": "pages/Right sidebar.md",
+      "name": "Right sidebar",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Search.md",
+      "name": "Search",
+      "blocks": 12,
+      "digest": "13ddcfd86f97304c"
+    },
+    {
+      "path": "pages/Settings.md",
+      "name": "Settings",
+      "blocks": 6,
+      "digest": "e781c604cd8fc973"
+    },
+    {
+      "path": "pages/Spaced Repetition.md",
+      "name": "Spaced Repetition",
+      "blocks": 2,
+      "digest": "fa5acf78b9fcc259"
+    },
+    {
+      "path": "pages/Start here.md",
+      "name": "Start here",
+      "blocks": 33,
+      "digest": "662aea5201c74fe7"
+    },
+    {
+      "path": "pages/Tags.md",
+      "name": "Tags",
+      "blocks": 1,
+      "digest": "e8a26e7b152d2fab"
+    },
+    {
+      "path": "pages/Tasks.md",
+      "name": "Tasks",
+      "blocks": 26,
+      "digest": "49410082e35bd861"
+    },
+    {
+      "path": "pages/Templates___Docs.md",
+      "name": "Templates/Docs",
+      "blocks": 19,
+      "digest": "36e068df8dceec95"
+    },
+    {
+      "path": "pages/The basics of block references.md",
+      "name": "The basics of block references",
+      "blocks": 38,
+      "digest": "671022c6dc4c9f6a"
+    },
+    {
+      "path": "pages/The difference between block embeds and block references.md",
+      "name": "The difference between block embeds and block references",
+      "blocks": 6,
+      "digest": "3be16f656d26cd25"
+    },
+    {
+      "path": "pages/The difference between block embeds and page embeds.md",
+      "name": "The difference between block embeds and page embeds",
+      "blocks": 16,
+      "digest": "2bd9e70a3b0277b4"
+    },
+    {
+      "path": "pages/Tweet___This 1 Tiny Time Managem...___.md",
+      "name": "Tweet/This 1 Tiny Time Managem...",
+      "blocks": 14,
+      "digest": "2a507a8cf72af7e6"
+    },
+    {
+      "path": "pages/UI Element.md",
+      "name": "UI Element",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Unlinked References.md",
+      "name": "Unlinked References",
+      "blocks": 2,
+      "digest": "bc62a3ca543e3304"
+    },
+    {
+      "path": "pages/User configuration.md",
+      "name": "User configuration",
+      "blocks": 8,
+      "digest": "fe4e6bcf14bb0dee"
+    },
+    {
+      "path": "pages/WIP How to work with the left-hand sidebar.md",
+      "name": "WIP How to work with the left-hand sidebar",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "pages/WIP Supercharge search with queries.md",
+      "name": "WIP Supercharge search with queries",
+      "blocks": 16,
+      "digest": "6ecebeae8d602706"
+    },
+    {
+      "path": "pages/Web.md",
+      "name": "Web",
+      "blocks": 1,
+      "digest": "fc672b4187cc8c49"
+    },
+    {
+      "path": "pages/What is indentation and why does it matter%3F.md",
+      "name": "What is indentation and why does it matter?",
+      "blocks": 15,
+      "digest": "3ee2154a819bfb83"
+    },
+    {
+      "path": "pages/Whiteboard.md",
+      "name": "Whiteboard",
+      "blocks": 48,
+      "digest": "3a9eb5cbc51b9f25"
+    },
+    {
+      "path": "pages/Whiteboard___Action Bar.md",
+      "name": "Whiteboard/Action Bar",
+      "blocks": 25,
+      "digest": "28ef2efbe9801fc8"
+    },
+    {
+      "path": "pages/Whiteboard___Canvas.md",
+      "name": "Whiteboard/Canvas",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Context Menu.md",
+      "name": "Whiteboard/Context Menu",
+      "blocks": 2,
+      "digest": "b20965a2e820dcf7"
+    },
+    {
+      "path": "pages/Whiteboard___Dashboard.md",
+      "name": "Whiteboard/Dashboard",
+      "blocks": 2,
+      "digest": "f5acc388a7825f8a"
+    },
+    {
+      "path": "pages/Whiteboard___Embed.md",
+      "name": "Whiteboard/Embed",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "pages/Whiteboard___Object.md",
+      "name": "Whiteboard/Object",
+      "blocks": 73,
+      "digest": "66660e8899bd28ad"
+    },
+    {
+      "path": "pages/Whiteboard___Object___Image.md",
+      "name": "Whiteboard/Object/Image",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Object___Tweet.md",
+      "name": "Whiteboard/Object/Tweet",
+      "blocks": 3,
+      "digest": "dc0b4668355dd40c"
+    },
+    {
+      "path": "pages/Whiteboard___Object___Youtube.md",
+      "name": "Whiteboard/Object/Youtube",
+      "blocks": 2,
+      "digest": "43b58d184047be16"
+    },
+    {
+      "path": "pages/Whiteboard___Object___iFrame.md",
+      "name": "Whiteboard/Object/iFrame",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Property___Links.md",
+      "name": "Whiteboard/Property/Links",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Quick Add.md",
+      "name": "Whiteboard/Quick Add",
+      "blocks": 10,
+      "digest": "088aeef2b1445a84"
+    },
+    {
+      "path": "pages/Whiteboard___Tool.md",
+      "name": "Whiteboard/Tool",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Connector.md",
+      "name": "Whiteboard/Tool/Connector",
+      "blocks": 1,
+      "digest": "d0e6651b7f63bba7"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Eraser.md",
+      "name": "Whiteboard/Tool/Eraser",
+      "blocks": 1,
+      "digest": "f482af0dfc326b71"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Highlight.md",
+      "name": "Whiteboard/Tool/Highlight",
+      "blocks": 1,
+      "digest": "dfa718f6870dcdfd"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Move.md",
+      "name": "Whiteboard/Tool/Move",
+      "blocks": 1,
+      "digest": "9505918dd9a43803"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Pencil.md",
+      "name": "Whiteboard/Tool/Pencil",
+      "blocks": 1,
+      "digest": "dec37492f7867c33"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Portal.md",
+      "name": "Whiteboard/Tool/Portal",
+      "blocks": 8,
+      "digest": "d3964e44e751cc0b"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Select.md",
+      "name": "Whiteboard/Tool/Select",
+      "blocks": 1,
+      "digest": "57c6f23f20285767"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Shape.md",
+      "name": "Whiteboard/Tool/Shape",
+      "blocks": 1,
+      "digest": "d1e86b46a559344b"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Shape___Circle.md",
+      "name": "Whiteboard/Tool/Shape/Circle",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Shape___Rectangle.md",
+      "name": "Whiteboard/Tool/Shape/Rectangle",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Shape___Triangle.md",
+      "name": "Whiteboard/Tool/Shape/Triangle",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/Whiteboard___Tool___Text.md",
+      "name": "Whiteboard/Tool/Text",
+      "blocks": 1,
+      "digest": "26679f7b3fd19738"
+    },
+    {
+      "path": "pages/Whiteboard___Toolbar.md",
+      "name": "Whiteboard/Toolbar",
+      "blocks": 1,
+      "digest": "4375858def76dbfe"
+    },
+    {
+      "path": "pages/Why linking matters.md",
+      "name": "Why linking matters",
+      "blocks": 7,
+      "digest": "ab3245cdce52a627"
+    },
+    {
+      "path": "pages/Youtube timestamp.md",
+      "name": "Youtube timestamp",
+      "blocks": 1,
+      "digest": "e8a26e7b152d2fab"
+    },
+    {
+      "path": "pages/Zotero.md",
+      "name": "Zotero",
+      "blocks": 21,
+      "digest": "157b751ce3f3d634"
+    },
+    {
+      "path": "pages/bensu.md",
+      "name": "bensu",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/block_embed.md",
+      "name": "Block embed",
+      "blocks": 5,
+      "digest": "345a24db671730c8"
+    },
+    {
+      "path": "pages/canary changelog.md",
+      "name": "Canary Changelog",
+      "blocks": 12,
+      "digest": "885f4b4d94e99475"
+    },
+    {
+      "path": "pages/changelog_06.md",
+      "name": "changelog_06",
+      "blocks": 582,
+      "digest": "881a3f1cab097f06"
+    },
+    {
+      "path": "pages/config edn file.md",
+      "name": "config.edn",
+      "blocks": 20,
+      "digest": "d69080630b369bde"
+    },
+    {
+      "path": "pages/contents.md",
+      "name": "contents",
+      "blocks": 68,
+      "digest": "2ca0f2db3824a3b1"
+    },
+    {
+      "path": "pages/custom.css.md",
+      "name": "custom.css",
+      "blocks": 5,
+      "digest": "bcff24b10abbfd60"
+    },
+    {
+      "path": "pages/custom.js.md",
+      "name": "custom.js",
+      "blocks": 4,
+      "digest": "5ad49bf31d3d176c"
+    },
+    {
+      "path": "pages/description.md",
+      "name": "description",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/desktop app.md",
+      "name": "Desktop app",
+      "blocks": 9,
+      "digest": "ef6f04afaa293530"
+    },
+    {
+      "path": "pages/devon.md",
+      "name": "devon",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/docs.md",
+      "name": "docs",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/examples.md",
+      "name": "examples",
+      "blocks": 7,
+      "digest": "ab75ba6fa48b9fb4"
+    },
+    {
+      "path": "pages/export.css.md",
+      "name": "export.css",
+      "blocks": 3,
+      "digest": "8263b1d9a4b0ed39"
+    },
+    {
+      "path": "pages/favorites.md",
+      "name": "favorites",
+      "blocks": 1,
+      "digest": "cbf29ce484222325"
+    },
+    {
+      "path": "pages/how_to_take_notes.md",
+      "name": "How to Take Notes",
+      "blocks": 4,
+      "digest": "a6420ff05998c52c"
+    },
+    {
+      "path": "pages/iOS.md",
+      "name": "iOS",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/initial-version.md",
+      "name": "initial-version",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/llcc.md",
+      "name": "llcc",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/one year in logseq.md",
+      "name": "One year in Logseq",
+      "blocks": 47,
+      "digest": "8c52366dd85e1136"
+    },
+    {
+      "path": "pages/page_embed.md",
+      "name": "Page embed",
+      "blocks": 4,
+      "digest": "722ef5da264e2bd4"
+    },
+    {
+      "path": "pages/pengx17.md",
+      "name": "pengx17",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/platforms.md",
+      "name": "platforms",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/plugins.edn.md",
+      "name": "plugins.edn",
+      "blocks": 13,
+      "digest": "0ad0d309aa7392c3"
+    },
+    {
+      "path": "pages/setting___enable journals.md",
+      "name": "setting/enable journals",
+      "blocks": 2,
+      "digest": "d320f855fa565cb5"
+    },
+    {
+      "path": "pages/setting___enable logical outdenting.md",
+      "name": "setting/enable logical outdenting",
+      "blocks": 4,
+      "digest": "49072479db19ba1b"
+    },
+    {
+      "path": "pages/setting___enable timetracking.md",
+      "name": "setting/enable timetracking",
+      "blocks": 1,
+      "digest": "ad43a7b136830686"
+    },
+    {
+      "path": "pages/setting___enable tooltip.md",
+      "name": "setting/enable tooltip",
+      "blocks": 1,
+      "digest": "ff9f1e8d1aacc15b"
+    },
+    {
+      "path": "pages/setting___language.md",
+      "name": "setting/language",
+      "blocks": 15,
+      "digest": "fc76547df593f910"
+    },
+    {
+      "path": "pages/setting___preferred file format.md",
+      "name": "setting/preferred file format",
+      "blocks": 6,
+      "digest": "67adac0cc0428274"
+    },
+    {
+      "path": "pages/setting___preferred journal format.md",
+      "name": "setting/preferred journal format",
+      "blocks": 4,
+      "digest": "c98b9fed512dcae9"
+    },
+    {
+      "path": "pages/setting___preferred workflow.md",
+      "name": "setting/preferred workflow",
+      "blocks": 4,
+      "digest": "7049c6b4156c1d19"
+    },
+    {
+      "path": "pages/setting___send usage data and diagnostics to logseq.md",
+      "name": "setting/send usage data and diagnostics to logseq",
+      "blocks": 3,
+      "digest": "e45aaa3ee0a262d1"
+    },
+    {
+      "path": "pages/setting___show brackets.md",
+      "name": "setting/show brackets",
+      "blocks": 6,
+      "digest": "9a3a1d897061560a"
+    },
+    {
+      "path": "pages/setting___theme modes.md",
+      "name": "setting/theme modes",
+      "blocks": 6,
+      "digest": "98e126bf745a4d62"
+    },
+    {
+      "path": "pages/slide.md",
+      "name": "slide",
+      "blocks": 10,
+      "digest": "a89d86486f9602ac"
+    },
+    {
+      "path": "pages/templates.md",
+      "name": "templates",
+      "blocks": 37,
+      "digest": "2071663c66111b24"
+    },
+    {
+      "path": "pages/term.page title.md",
+      "name": "custom page title",
+      "blocks": 11,
+      "digest": "66c5e55466aaefe6"
+    },
+    {
+      "path": "pages/term___alias.md",
+      "name": "term/alias",
+      "blocks": 5,
+      "digest": "bfe2b6012538b9a5"
+    },
+    {
+      "path": "pages/term___backlink.md",
+      "name": "term/backlink",
+      "blocks": 9,
+      "digest": "9eae8aad32b8eee2"
+    },
+    {
+      "path": "pages/term___block reference with label.md",
+      "name": "term/block reference with label",
+      "blocks": 8,
+      "digest": "23e8d6ed182d6b91"
+    },
+    {
+      "path": "pages/term___block rendering.md",
+      "name": "term/block rendering",
+      "blocks": 5,
+      "digest": "16a444e1aacda850"
+    },
+    {
+      "path": "pages/term___block title.md",
+      "name": "term/block title",
+      "blocks": 7,
+      "digest": "7defcfd890975128"
+    },
+    {
+      "path": "pages/term___block.md",
+      "name": "term/block",
+      "blocks": 5,
+      "digest": "a84b970beccc6830"
+    },
+    {
+      "path": "pages/term___bullet.md",
+      "name": "term/bullet",
+      "blocks": 7,
+      "digest": "bca4714d03892f6f"
+    },
+    {
+      "path": "pages/term___editing mode.md",
+      "name": "term/editing mode",
+      "blocks": 9,
+      "digest": "8920156579016413"
+    },
+    {
+      "path": "pages/term___embedded block.md",
+      "name": "term/embedded block",
+      "blocks": 7,
+      "digest": "e661f369049d7bbb"
+    },
+    {
+      "path": "pages/term___embedded page.md",
+      "name": "term/embedded page",
+      "blocks": 7,
+      "digest": "46dba29dadfed92c"
+    },
+    {
+      "path": "pages/term___file link.md",
+      "name": "term/file link",
+      "blocks": 6,
+      "digest": "1f6c359dfe7e3c51"
+    },
+    {
+      "path": "pages/term___graph.md",
+      "name": "term/graph",
+      "blocks": 4,
+      "digest": "87b3c5942b91943d"
+    },
+    {
+      "path": "pages/term___internal line break.md",
+      "name": "term/internal line break",
+      "blocks": 6,
+      "digest": "81d88b113625a5d3"
+    },
+    {
+      "path": "pages/term___network of connected ideas.md",
+      "name": "term/network of connected ideas",
+      "blocks": 2,
+      "digest": "fab81b8e16eaac11"
+    },
+    {
+      "path": "pages/term___page reference with label.md",
+      "name": "term/page reference with label",
+      "blocks": 7,
+      "digest": "0fd36626ceedba9b"
+    },
+    {
+      "path": "pages/term___page reference.md",
+      "name": "term/page reference",
+      "blocks": 2,
+      "digest": "22ec03e8485da53f"
+    },
+    {
+      "path": "pages/term___page title.md",
+      "name": "term/page title",
+      "blocks": 10,
+      "digest": "d0b9c810ed39b95a"
+    },
+    {
+      "path": "pages/term___page.md",
+      "name": "term/page",
+      "blocks": 6,
+      "digest": "b363fc971ef18e7a"
+    },
+    {
+      "path": "pages/term___web link.md",
+      "name": "term/web link",
+      "blocks": 7,
+      "digest": "4337f90ed4e93d2d"
+    },
+    {
+      "path": "pages/testimonials.md",
+      "name": "Testimonials",
+      "blocks": 4,
+      "digest": "16402c6ca3f88c06"
+    },
+    {
+      "path": "pages/theme.md",
+      "name": "theme",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/tips_and_tricks.md",
+      "name": "Tips and Tricks",
+      "blocks": 4,
+      "digest": "02118e4c17d9d6e8"
+    },
+    {
+      "path": "pages/tutorial.md",
+      "name": "tutorial",
+      "blocks": 27,
+      "digest": "1d83afcbd4dc966d"
+    },
+    {
+      "path": "pages/type.md",
+      "name": "type",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/url.md",
+      "name": "url",
+      "blocks": 0,
+      "digest": "0000000000000000"
+    },
+    {
+      "path": "pages/videos.md",
+      "name": "videos",
+      "blocks": 4,
+      "digest": "914db6c454a80e6d"
+    }
+  ]
+}

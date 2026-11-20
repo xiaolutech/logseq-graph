@@ -1,0 +1,104 @@
+{
+  "args": [],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getAllPages",
+  "result": {
+    "count": 756,
+    "field_counts": {
+      "alias": 94,
+      "createdAt": 756,
+      "file": 298,
+      "format": 10,
+      "id": 756,
+      "journal?": 755,
+      "journalDay": 191,
+      "name": 756,
+      "namespace": 65,
+      "originalName": 756,
+      "properties": 217,
+      "propertiesTextValues": 216,
+      "tags": 5,
+      "type": 1,
+      "updatedAt": 756,
+      "uuid": 756
+    },
+    "sample": [
+      {
+        "createdAt": 1795141875821,
+        "file": {
+          "id": 6675
+        },
+        "id": 5185,
+        "journal?": false,
+        "name": "export.css",
+        "originalName": "export.css",
+        "properties": {
+          "description": "Local config file, logseq/export.css, loads custom css for a published graph",
+          "platforms": [
+            "Publish Web"
+          ],
+          "title": "export.css",
+          "type": [
+            "Feature"
+          ]
+        },
+        "propertiesTextValues": {
+          "description": "Local config file, logseq/export.css, loads custom css for a published graph",
+          "platforms": "[[Publish Web]]",
+          "title": "export.css",
+          "type": "[[Feature]]"
+        },
+        "updatedAt": 1795141875821,
+        "uuid": "6affb0f6-f82e-43a3-82d7-82672429431b"
+      },
+      {
+        "createdAt": 1795141872912,
+        "file": {
+          "id": 5873
+        },
+        "id": 503,
+        "journal?": false,
+        "name": "why linking matters",
+        "originalName": "Why linking matters",
+        "updatedAt": 1795141872912,
+        "uuid": "6affb0f6-ed96-4c6a-ae05-8a8f70c1a154"
+      },
+      {
+        "createdAt": 1795141878885,
+        "id": 5959,
+        "journal?": true,
+        "journalDay": 20210311,
+        "name": "mar 11th, 2021",
+        "originalName": "Mar 11th, 2021",
+        "updatedAt": 1795141878885,
+        "uuid": "6affb0f6-5cfa-46ee-9c65-998c555ee88d"
+      }
+    ],
+    "truthy_field_counts": {
+      "alias": 94,
+      "createdAt": 756,
+      "file": 298,
+      "format": 10,
+      "id": 756,
+      "journal?": 191,
+      "journalDay": 191,
+      "name": 756,
+      "namespace": 65,
+      "originalName": 756,
+      "properties": 217,
+      "propertiesTextValues": 216,
+      "tags": 5,
+      "type": 1,
+      "updatedAt": 756,
+      "uuid": 756
+    }
+  },
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": true
+}

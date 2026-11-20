@@ -1,0 +1,48 @@
+{
+  "args": [
+    "Tasks"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getPage",
+  "result": {
+    "alias": [
+      {
+        "id": 5358
+      }
+    ],
+    "createdAt": 1795141872922,
+    "file": {
+      "id": 5356
+    },
+    "id": 485,
+    "journal?": false,
+    "name": "tasks",
+    "originalName": "Tasks",
+    "properties": {
+      "alias": [
+        "Todos"
+      ],
+      "platforms": [
+        "All Platforms"
+      ],
+      "type": [
+        "Feature"
+      ]
+    },
+    "propertiesTextValues": {
+      "alias": "Todos",
+      "platforms": "[[All Platforms]]",
+      "type": "[[Feature]]"
+    },
+    "updatedAt": 1795141872922,
+    "uuid": "6affb0f7-5b23-4086-a4d3-6be1a225ec94"
+  },
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

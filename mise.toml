@@ -1,0 +1,25 @@
+# Tools every gate in this repository needs, pinned so a fresh clone behaves identically:
+# `mise install` (or `mise trust` if it asks) then `prek install` is the whole setup.
+[tools]
+# The compiler the workspace builds and ships with. The declared MSRV (`rust-version = "1.89"`) is
+# a separate, on-demand check — `just msrv` — deliberately not pinned here: it needs a second
+# toolchain and a full compile, which no commit should pay.
+rust = "1.99.1"
+# Git hook runner: replaced the hand-written .githooks/ scripts. Run `prek install` after any
+# change to prek.toml, and `prek install --force` after upgrading this version.
+prek = "0.5.10"
+# Spelling checker, used by the pre-commit hook and `just check`.
+typos = "1.52.1"
+# The scripts under scripts/ are plain stdlib Python. Pinned so the hooks and `just check`
+# do not depend on whichever python3 the machine happens to resolve first.
+python = "3.15.2"
+# Runs the gate recipes in justfile.
+just = "1.59.0"
+# Supply-chain gate (`just deny`, and the `cargo-deny` pre-commit hook on a dependency change). It
+# checks four things none of the other tools look at: RUSTSEC advisory database matches, the licence
+# of every crate in the resolved tree against an allow list, duplicate crate versions, and where
+# crates come from
+# (registry vs git). Pinned because the advisory database format and the default lint set move
+# between releases: an unpinned `cargo binstall cargo-deny` would let the same commit pass on one
+# machine and fail on another. Verified with `mise which cargo-deny`; `deny.toml` is the config.
+cargo-deny = "0.20.2"

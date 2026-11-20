@@ -1,0 +1,1416 @@
+{
+  "args": [
+    "(page-property :type [[Feature]])"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.DB.q",
+  "result": [
+    {
+      "createdAt": 1795141875821,
+      "file": {
+        "id": 6675
+      },
+      "id": 5185,
+      "journal?": false,
+      "name": "export.css",
+      "originalName": "export.css",
+      "properties": {
+        "description": "Local config file, logseq/export.css, loads custom css for a published graph",
+        "platforms": [
+          "Publish Web"
+        ],
+        "title": "export.css",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Local config file, logseq/export.css, loads custom css for a published graph",
+        "platforms": "[[Publish Web]]",
+        "title": "export.css",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875821,
+      "uuid": "6affb0f6-f82e-43a3-82d7-82672429431b"
+    },
+    {
+      "createdAt": 1795141872926,
+      "file": {
+        "id": 4453
+      },
+      "id": 525,
+      "journal?": false,
+      "name": "flashcards",
+      "originalName": "Flashcards",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "tags": [
+          "Academic"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "tags": "#Academic",
+        "type": "[[Feature]]"
+      },
+      "tags": [
+        {
+          "id": 722
+        }
+      ],
+      "updatedAt": 1795141872926,
+      "uuid": "6affb0f7-9d3b-4544-84f3-ba612126cf09"
+    },
+    {
+      "createdAt": 1795141872923,
+      "file": {
+        "id": 841
+      },
+      "id": 500,
+      "journal?": false,
+      "name": "advanced commands",
+      "originalName": "Advanced commands",
+      "properties": {
+        "description": "Advanced functionality that can be invoked from any block",
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Advanced functionality that can be invoked from any block",
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872923,
+      "uuid": "6affb0f3-cf5a-4067-9b6a-2ba66e275d29"
+    },
+    {
+      "createdAt": 1795141875295,
+      "file": {
+        "id": 4329
+      },
+      "id": 4330,
+      "journal?": false,
+      "name": "export",
+      "originalName": "Export",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875295,
+      "uuid": "6affb0f6-0752-4778-b035-89b6777ef60a"
+    },
+    {
+      "createdAt": 1795141875945,
+      "file": {
+        "id": 5352
+      },
+      "id": 5353,
+      "journal?": false,
+      "name": "tags",
+      "originalName": "Tags",
+      "properties": {
+        "description": "Annotates pages or blocks with a single value",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Annotates pages or blocks with a single value",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875945,
+      "uuid": "6affb0f3-8956-4a15-a4af-ba3c9231c775"
+    },
+    {
+      "createdAt": 1795141872937,
+      "file": {
+        "id": 4364
+      },
+      "id": 497,
+      "journal?": false,
+      "name": "filename format",
+      "originalName": "Filename format",
+      "properties": {
+        "description": "Allow users to migrate the filenames to the latest format",
+        "initialVersion": "0.8.9",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Allow users to migrate the filenames to the latest format",
+        "initialVersion": "0.8.9",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872937,
+      "uuid": "6affb0f3-b679-458a-988d-9c72fed6e714"
+    },
+    {
+      "createdAt": 1795141875599,
+      "file": {
+        "id": 4817
+      },
+      "id": 4349,
+      "journal?": false,
+      "name": "macros",
+      "originalName": "Macros",
+      "properties": {
+        "description": "Provides a way to write and maintain reusable text. This text can render as html and can invoke some other features",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Provides a way to write and maintain reusable text. This text can render as html and can invoke some other features",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875599,
+      "uuid": "6affb0f7-599c-44f2-a642-c6fbfcf8e5a6"
+    },
+    {
+      "createdAt": 1795141872936,
+      "file": {
+        "id": 5212
+      },
+      "id": 477,
+      "journal?": false,
+      "name": "queries",
+      "originalName": "Queries",
+      "properties": {
+        "description": "Also known as simple queries",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Also known as simple queries",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872936,
+      "uuid": "6affb0f7-8cb1-46b5-924a-568094238b7e"
+    },
+    {
+      "createdAt": 1795141872935,
+      "file": {
+        "id": 4657
+      },
+      "id": 505,
+      "journal?": false,
+      "name": "keyboard shortcuts",
+      "originalName": "Keyboard shortcuts",
+      "properties": {
+        "description": "Provides keyboards shortcuts for running core commands and actions. Shortcuts can be customized through user configuration.",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Provides keyboards shortcuts for running core commands and actions. Shortcuts can be customized through user configuration.",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872935,
+      "uuid": "6affb0f6-7c3f-43ce-ae16-991d76a9e4b8"
+    },
+    {
+      "createdAt": 1795141872925,
+      "file": {
+        "id": 5184
+      },
+      "id": 514,
+      "journal?": false,
+      "name": "publishing",
+      "originalName": "Publishing",
+      "properties": {
+        "description": [
+          "Publish Web"
+        ],
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "This feature publishes a graph as a [[Publish Web]], single page application.",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872925,
+      "uuid": "6affb0f3-5709-4077-8a73-db4bec7328d3"
+    },
+    {
+      "createdAt": 1795141875489,
+      "file": {
+        "id": 4654
+      },
+      "id": 4486,
+      "journal?": false,
+      "name": "journals page",
+      "originalName": "Journals page",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875489,
+      "uuid": "6affb0f3-428a-49df-9cb2-3079fe959bac"
+    },
+    {
+      "createdAt": 1795141875707,
+      "file": {
+        "id": 5018
+      },
+      "id": 5019,
+      "journal?": false,
+      "name": "page graph",
+      "originalName": "Page graph",
+      "properties": {
+        "description": [
+          "Graph view"
+        ],
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Like [[Graph view]] but only for the current page",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875707,
+      "uuid": "6affb0f3-3f2f-42e7-b59f-10064836972b"
+    },
+    {
+      "createdAt": 1795141875484,
+      "file": {
+        "id": 4650
+      },
+      "id": 4651,
+      "journal?": false,
+      "name": "import",
+      "originalName": "Import",
+      "properties": {
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875484,
+      "uuid": "6affb0f3-328a-4788-8602-6bb1c6c1e0b3"
+    },
+    {
+      "alias": [
+        {
+          "id": 5567
+        }
+      ],
+      "createdAt": 1795141872929,
+      "file": {
+        "id": 5560
+      },
+      "format": "markdown",
+      "id": 480,
+      "journal?": false,
+      "name": "whiteboard",
+      "originalName": "Whiteboard",
+      "properties": {
+        "alias": [
+          "Whiteboards"
+        ],
+        "description": "Put thoughts from your knowledge base as well as new ones next to each other on a spatial canvas together with shapes, drawings, website embeds and connectors. Built on a fork of [tldraw](https://github.com/tldraw/tldraw).",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "Whiteboards",
+        "description": "Put thoughts from your knowledge base as well as new ones next to each other on a spatial canvas together with shapes, drawings, website embeds and connectors. Built on a fork of [tldraw](https://github.com/tldraw/tldraw).",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872929,
+      "uuid": "6affb0f7-0530-4071-a005-3ff7dadff8c3"
+    },
+    {
+      "createdAt": 1795141875221,
+      "file": {
+        "id": 4172
+      },
+      "id": 4173,
+      "journal?": false,
+      "name": "copy and paste",
+      "originalName": "Copy and Paste",
+      "properties": {
+        "description": "Describes copy and the difference between formatted and raw paste",
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Describes copy and the difference between formatted and raw paste",
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875221,
+      "uuid": "6affb0f3-818e-45f5-b039-e694c3b4e6cc"
+    },
+    {
+      "alias": [
+        {
+          "id": 4687
+        }
+      ],
+      "createdAt": 1795141872918,
+      "file": {
+        "id": 4684
+      },
+      "id": 488,
+      "journal?": false,
+      "name": "knowledge graph",
+      "originalName": "Knowledge Graph",
+      "properties": {
+        "alias": [
+          "Graph view"
+        ],
+        "description": "Graph view of your whole graph",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "Graph view",
+        "description": "Graph view of your whole graph",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872918,
+      "uuid": "6affb0f3-51b0-4499-9713-53991ada5c90"
+    },
+    {
+      "createdAt": 1795141872922,
+      "file": {
+        "id": 4091
+      },
+      "id": 507,
+      "journal?": false,
+      "name": "commands",
+      "originalName": "Commands",
+      "properties": {
+        "description": "Functionality that can be invoked from any block",
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Functionality that can be invoked from any block",
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872922,
+      "uuid": "6affb0f6-dc0e-44c9-bd31-4e20d8d6b818"
+    },
+    {
+      "createdAt": 1795141872925,
+      "file": {
+        "id": 5112
+      },
+      "id": 476,
+      "journal?": false,
+      "name": "properties",
+      "originalName": "Properties",
+      "properties": {
+        "description": "Annotates any block or page with multiple pairs of values e.g. `rating:: 8` or `name:: foo`. Building block for organizing graphs",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Annotates any block or page with multiple pairs of values e.g. `rating:: 8` or `name:: foo`. Building block for organizing graphs",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872925,
+      "uuid": "6affb0f7-f9ab-4c03-bdd9-0725ae4b28ba"
+    },
+    {
+      "createdAt": 1795141872923,
+      "file": {
+        "id": 6878
+      },
+      "format": "markdown",
+      "id": 512,
+      "journal?": false,
+      "name": "templates",
+      "originalName": "templates",
+      "properties": {
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872923,
+      "uuid": "6affb0f7-1ac7-42e7-8b58-0b72f12afbab"
+    },
+    {
+      "createdAt": 1795141875547,
+      "file": {
+        "id": 4724
+      },
+      "id": 1133,
+      "journal?": false,
+      "name": "local http server",
+      "originalName": "Local Http server",
+      "properties": {
+        "description": "local HTTP server to access logseq's graph",
+        "initialVersion": "0.8.15",
+        "platforms": [
+          "Desktop"
+        ],
+        "title": "Local Http server",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "local HTTP server to access logseq's graph",
+        "initialVersion": "0.8.15",
+        "platforms": "[[Desktop]]",
+        "title": "Local Http server",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875547,
+      "uuid": "6affb0f3-1957-4fce-b68f-352f27948100"
+    },
+    {
+      "createdAt": 1795141874981,
+      "file": {
+        "id": 5881
+      },
+      "id": 3118,
+      "journal?": false,
+      "name": "youtube timestamp",
+      "originalName": "Youtube timestamp",
+      "properties": {
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141874981,
+      "uuid": "6affb0f6-dbeb-46ed-bd03-1c42343414bb"
+    },
+    {
+      "createdAt": 1795141872928,
+      "file": {
+        "id": 5884
+      },
+      "id": 489,
+      "journal?": false,
+      "name": "zotero",
+      "originalName": "Zotero",
+      "properties": {
+        "description": "Built in integration that helps import your Zotero items as pages seamlessly. [Zotero](https://www.zotero.org/) is a free, easy-to-use tool to help you collect, organize, cite, and share research.",
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "tags": [
+          "Academic"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Built in integration that helps import your Zotero items as pages seamlessly. [Zotero](https://www.zotero.org/) is a free, easy-to-use tool to help you collect, organize, cite, and share research.",
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "tags": "#Academic",
+        "type": "[[Feature]]"
+      },
+      "tags": [
+        {
+          "id": 722
+        }
+      ],
+      "updatedAt": 1795141872928,
+      "uuid": "6affb0f6-1e61-4c75-ad26-0a042565311f"
+    },
+    {
+      "createdAt": 1795141875864,
+      "file": {
+        "id": 5251
+      },
+      "id": 5252,
+      "journal?": false,
+      "name": "query builder",
+      "originalName": "Query Builder",
+      "properties": {
+        "description": [
+          "Queries"
+        ],
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Build [[Queries]] easily with filters and nested operators",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875864,
+      "uuid": "6affb0f3-73a8-4cd2-96a4-ac556f00c5f6"
+    },
+    {
+      "createdAt": 1795141875364,
+      "file": {
+        "id": 4444
+      },
+      "id": 4445,
+      "journal?": false,
+      "name": "find in page",
+      "originalName": "Find in page",
+      "properties": {
+        "description": "Finds any text that is visible or loaded into the current page",
+        "initialVersion": "0.8.3",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Finds any text that is visible or loaded into the current page",
+        "initialVersion": "0.8.3",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875364,
+      "uuid": "6affb0f3-89da-4c0d-873b-ed2b42cfc48a"
+    },
+    {
+      "createdAt": 1795141872936,
+      "file": {
+        "id": 725
+      },
+      "id": 523,
+      "journal?": false,
+      "name": "advanced queries",
+      "originalName": "Advanced Queries",
+      "properties": {
+        "description": "Advanced queries are written with [Datalog](https://en.wikipedia.org/wiki/Datalog) and query the [Datascript](https://github.com/tonsky/datascript) database.",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Advanced queries are written with [Datalog](https://en.wikipedia.org/wiki/Datalog) and query the [Datascript](https://github.com/tonsky/datascript) database.",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872936,
+      "uuid": "6affb0f7-4b33-43c5-b7ff-7db63f473f5c"
+    },
+    {
+      "alias": [
+        {
+          "id": 5358
+        }
+      ],
+      "createdAt": 1795141872922,
+      "file": {
+        "id": 5356
+      },
+      "id": 485,
+      "journal?": false,
+      "name": "tasks",
+      "originalName": "Tasks",
+      "properties": {
+        "alias": [
+          "Todos"
+        ],
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "Todos",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872922,
+      "uuid": "6affb0f7-5b23-4086-a4d3-6be1a225ec94"
+    },
+    {
+      "createdAt": 1795141878919,
+      "file": {
+        "id": 6639
+      },
+      "id": 5506,
+      "journal?": false,
+      "name": "custom.js",
+      "originalName": "custom.js",
+      "properties": {
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "title": "custom.js",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "title": "custom.js",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141878919,
+      "uuid": "6affb0f6-2af0-4008-bd3b-a90cd792f908"
+    },
+    {
+      "createdAt": 1795141875152,
+      "file": {
+        "id": 4058
+      },
+      "id": 843,
+      "journal?": false,
+      "name": "clojurescript eval in a block",
+      "originalName": "ClojureScript Eval in a Block",
+      "properties": {
+        "description": "Run ClojureScript in a block using [sci](https://github.com/babashka/sci)",
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Run ClojureScript in a block using [sci](https://github.com/babashka/sci)",
+        "platforms": "[[All Platforms]] except [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875152,
+      "uuid": "6affb0f3-1885-493b-a8c4-da84a368886a"
+    },
+    {
+      "createdAt": 1795141875430,
+      "file": {
+        "id": 4558
+      },
+      "id": 4559,
+      "journal?": false,
+      "name": "headings",
+      "originalName": "Headings",
+      "properties": {
+        "description": "Creating headings on a page",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Creating headings on a page",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875430,
+      "uuid": "6affb0f3-765d-4a4b-82f3-86eaa2ad1387"
+    },
+    {
+      "createdAt": 1795141878286,
+      "file": {
+        "id": 5505
+      },
+      "id": 5507,
+      "journal?": false,
+      "name": "user configuration",
+      "originalName": "User configuration",
+      "properties": {
+        "description": "Users can configure logseq with a number of files.",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Users can configure logseq with a number of files.",
+        "platforms": "[[All Platforms]] except for custom.js and global config",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141878286,
+      "uuid": "6affb0f6-1a0e-47b4-9285-d6b915b72920"
+    },
+    {
+      "createdAt": 1795141875535,
+      "file": {
+        "id": 4720
+      },
+      "id": 4721,
+      "journal?": false,
+      "name": "linked references",
+      "originalName": "Linked References",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875535,
+      "uuid": "6affb0f7-ab0c-43db-84ad-7de984f49f27"
+    },
+    {
+      "createdAt": 1795141872919,
+      "file": {
+        "id": 4998
+      },
+      "id": 495,
+      "journal?": false,
+      "name": "page and block references",
+      "originalName": "Page and block references",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872919,
+      "uuid": "6affb0f3-8518-4d6a-b07f-f4f82344d9e9"
+    },
+    {
+      "alias": [
+        {
+          "id": 942
+        }
+      ],
+      "createdAt": 1795141875700,
+      "file": {
+        "id": 941
+      },
+      "id": 943,
+      "journal?": false,
+      "name": "block reference",
+      "originalName": "Block Reference",
+      "properties": {
+        "alias": [
+          "term/block reference"
+        ],
+        "description": "Clickable link to a particular Logseq block  e.g. `((123e4567-e89b-12d3-a456-426614174000))`. Produced by putting a unique [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) inside parenthesis `(())`",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "term/block reference",
+        "description": "Clickable link to a particular Logseq block  e.g. `((123e4567-e89b-12d3-a456-426614174000))`. Produced by putting a unique [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) inside parenthesis `(())`",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875700,
+      "uuid": "6affb0f3-eaf9-4d68-9b5f-33dc27f9e3ab"
+    },
+    {
+      "createdAt": 1795141875913,
+      "file": {
+        "id": 5291
+      },
+      "id": 4446,
+      "journal?": false,
+      "name": "search",
+      "originalName": "Search",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875913,
+      "uuid": "6affb0f7-4839-4877-bf9c-b6a220cfb5e8"
+    },
+    {
+      "createdAt": 1795141872962,
+      "file": {
+        "id": 607
+      },
+      "id": 608,
+      "journal?": false,
+      "name": "plugins.edn",
+      "originalName": "plugins.edn",
+      "properties": {
+        "description": [
+          "Plugins"
+        ],
+        "initialVersion": "0.8.9",
+        "platforms": [
+          "Desktop"
+        ],
+        "title": "plugins.edn",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Global file that provides a list of a user's current [[Plugins]]",
+        "initialVersion": "0.8.9",
+        "platforms": "[[Desktop]]",
+        "title": "plugins.edn",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872962,
+      "uuid": "6affb0f3-95b2-4619-9699-5df5d7dc6daf"
+    },
+    {
+      "createdAt": 1795141879164,
+      "file": {
+        "id": 5500
+      },
+      "id": 5501,
+      "journal?": false,
+      "name": "unlinked references",
+      "originalName": "Unlinked References",
+      "properties": {
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141879164,
+      "uuid": "6affb0f7-9816-4145-8706-043206ac6964"
+    },
+    {
+      "createdAt": 1795141872948,
+      "file": {
+        "id": 598
+      },
+      "id": 599,
+      "journal?": false,
+      "name": "custom.css",
+      "originalName": "custom.css",
+      "properties": {
+        "description": "Local config file, logseq/custom.css, loads custom css for a graph on startup",
+        "platforms": [
+          "All Platforms"
+        ],
+        "title": "custom.css",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Local config file, logseq/custom.css, loads custom css for a graph on startup",
+        "platforms": "[[All Platforms]]",
+        "title": "custom.css",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872948,
+      "uuid": "6affb0f6-2489-417b-ad5c-c4a80db7b558"
+    },
+    {
+      "createdAt": 1795141872948,
+      "file": {
+        "id": 4188
+      },
+      "id": 502,
+      "journal?": false,
+      "name": "custom theme",
+      "originalName": "Custom theme",
+      "properties": {
+        "platforms": [
+          "All Platforms",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[All Platforms]] but some ways are not supported for [[Publish Web]].",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872948,
+      "uuid": "6affb0f3-c2fd-4459-a31c-6f3f83f570a6"
+    },
+    {
+      "createdAt": 1795141875402,
+      "file": {
+        "id": 4505
+      },
+      "id": 1073,
+      "journal?": false,
+      "name": "global configuration",
+      "originalName": "Global configuration",
+      "properties": {
+        "description": [
+          "Global config.edn",
+          "plugins.edn"
+        ],
+        "initialVersion": "0.8.6",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "User configuration directory located in `~/.logseq/config` that applies to all graphs. Directory consists of [[Global config.edn]] and [[plugins.edn]]",
+        "initialVersion": "0.8.6",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875402,
+      "uuid": "6affb0f6-9933-4d02-989e-35c4d62547ad"
+    },
+    {
+      "createdAt": 1795141875396,
+      "file": {
+        "id": 4494
+      },
+      "id": 4495,
+      "journal?": false,
+      "name": "git auto-commit",
+      "originalName": "Git Auto-Commit",
+      "properties": {
+        "description": "Automatically save commit changes to a git repository.",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Automatically save commit changes to a git repository.",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875396,
+      "uuid": "6affb0f3-a302-4cb7-9745-3a19fea4fbf6"
+    },
+    {
+      "alias": [
+        {
+          "id": 6934
+        }
+      ],
+      "createdAt": 1795141872924,
+      "file": {
+        "id": 6933
+      },
+      "id": 403,
+      "journal?": false,
+      "name": "term/alias",
+      "namespace": {
+        "id": 404
+      },
+      "originalName": "term/alias",
+      "properties": {
+        "alias": [
+          "page alias"
+        ],
+        "description": "Provides a readable alias for a page. A page can have multiple aliases. Page references with the alias will automatically redirect to the original page",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "page alias",
+        "description": "Provides a readable alias for a page. A page can have multiple aliases. Page references with the alias will automatically redirect to the original page",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872924,
+      "uuid": "6affb0f7-d704-43a6-ae0a-10529c8863d3"
+    },
+    {
+      "createdAt": 1795141875005,
+      "file": {
+        "id": 883
+      },
+      "id": 884,
+      "journal?": false,
+      "name": "all pages",
+      "originalName": "All pages",
+      "properties": {
+        "description": "Page dedicated to page management - search, delete and sort pages.",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Page dedicated to page management - search, delete and sort pages.",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875005,
+      "uuid": "6affb0f6-20a9-4e1d-8ba0-12f4201dc0c6"
+    },
+    {
+      "createdAt": 1795141872925,
+      "file": {
+        "id": 4971
+      },
+      "id": 501,
+      "journal?": false,
+      "name": "pdf highlights",
+      "originalName": "PDF highlights",
+      "properties": {
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872925,
+      "uuid": "6affb0f3-3223-4e99-a080-c2d8fcab6aa5"
+    },
+    {
+      "alias": [
+        {
+          "id": 6865
+        }
+      ],
+      "createdAt": 1795141872927,
+      "file": {
+        "id": 6864
+      },
+      "id": 479,
+      "journal?": false,
+      "name": "slide",
+      "originalName": "slide",
+      "properties": {
+        "alias": [
+          "Presentation"
+        ],
+        "platforms": [
+          "All Platforms"
+        ],
+        "title": "slide",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "alias": "Presentation",
+        "platforms": "[[All Platforms]]",
+        "title": "slide",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872927,
+      "uuid": "6affb0f7-959d-432f-b71f-6a70ffcfdb4f"
+    },
+    {
+      "createdAt": 1795141873875,
+      "file": {
+        "id": 898
+      },
+      "id": 899,
+      "journal?": false,
+      "name": "assets alias",
+      "originalName": "Assets alias",
+      "properties": {
+        "initialVersion": "unreleased",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "initialVersion": "unreleased",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141873875,
+      "uuid": "6affb0f1-b40d-46f0-b9f1-3d63184ec780"
+    },
+    {
+      "createdAt": 1795141872871,
+      "file": {
+        "id": 6617
+      },
+      "id": 456,
+      "journal?": false,
+      "name": "config.edn",
+      "originalName": "config.edn",
+      "properties": {
+        "description": "Local config file, `logseq/config.edn`, is the main configuration file for a graph",
+        "platforms": [
+          "All Platforms"
+        ],
+        "title": "config.edn",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Local config file, `logseq/config.edn`, is the main configuration file for a graph",
+        "platforms": "[[All Platforms]]",
+        "title": "config.edn",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872871,
+      "uuid": "6affb0f7-df98-4e25-b44a-61548af2492c"
+    },
+    {
+      "createdAt": 1795141875579,
+      "file": {
+        "id": 4780
+      },
+      "id": 4637,
+      "journal?": false,
+      "name": "logseq sync",
+      "originalName": "Logseq Sync",
+      "properties": {
+        "description": "Paid feature that provides encrypted synchronization of graphs between devices.",
+        "platforms": [
+          "All Platforms",
+          "Web",
+          "Publish Web"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Paid feature that provides encrypted synchronization of graphs between devices.",
+        "platforms": "[[All Platforms]] except [[Web]] and [[Publish Web]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875579,
+      "uuid": "6affb0f3-7bbf-485a-8427-29a5bfd87c9c"
+    },
+    {
+      "createdAt": 1795141875653,
+      "file": {
+        "id": 4920
+      },
+      "id": 4921,
+      "journal?": false,
+      "name": "namespaces",
+      "originalName": "Namespaces",
+      "properties": {
+        "description": "Used to group a set of related pages",
+        "platforms": [
+          "All Platforms"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Used to group a set of related pages",
+        "platforms": "[[All Platforms]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141875653,
+      "uuid": "6affb0f6-00d0-42c6-9062-82e4ece2151f"
+    },
+    {
+      "createdAt": 1795141872961,
+      "file": {
+        "id": 5100
+      },
+      "id": 528,
+      "journal?": false,
+      "name": "plugins",
+      "originalName": "Plugins",
+      "properties": {
+        "description": "Extends the functionality of logseq with third party tools",
+        "platforms": [
+          "Desktop"
+        ],
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Extends the functionality of logseq with third party tools",
+        "platforms": "[[Desktop]]",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872961,
+      "uuid": "6affb0f7-23ab-49b3-b26b-ca3c73af40aa"
+    },
+    {
+      "createdAt": 1795141872874,
+      "file": {
+        "id": 452
+      },
+      "id": 453,
+      "journal?": false,
+      "name": "global config.edn",
+      "originalName": "Global config.edn",
+      "properties": {
+        "description": [
+          "config.edn"
+        ],
+        "initialVersion": "0.8.6",
+        "platforms": [
+          "Desktop"
+        ],
+        "title": "Global config.edn",
+        "type": [
+          "Feature"
+        ]
+      },
+      "propertiesTextValues": {
+        "description": "Version of [[config.edn]] that applies to all graphs",
+        "initialVersion": "0.8.6",
+        "platforms": "[[Desktop]]",
+        "title": "Global config.edn",
+        "type": "[[Feature]]"
+      },
+      "updatedAt": 1795141872874,
+      "uuid": "6affb0f3-f554-48f0-8302-06358f8f3828"
+    }
+  ],
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

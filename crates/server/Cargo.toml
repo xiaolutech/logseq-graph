@@ -1,0 +1,27 @@
+[package]
+name = "logseq-graph-cli"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.89"
+license = "MIT"
+publish = false
+
+[[bin]]
+name = "logseq-graph"
+path = "src/main.rs"
+
+[dependencies]
+logseq-graph = { path = "../graph" }
+# The CLI was dependency-free because printing one answer needs nothing else. `serve` is the first
+# command that speaks HTTP and JSON: httparse parses request heads, while serde and serde_json
+# keep JSON escaping and typed serialization out of the socket transport.
+httparse = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+notify = "8.2"
+
+[dev-dependencies]
+serde_json = "1"
+
+[lints]
+workspace = true

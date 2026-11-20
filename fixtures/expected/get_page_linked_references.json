@@ -1,0 +1,187 @@
+{
+  "args": [
+    "Tasks"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getPageLinkedReferences",
+  "result": [
+    [
+      {
+        "id": 928,
+        "name": "setting/preferred workflow",
+        "originalName": "setting/preferred workflow"
+      },
+      [
+        {
+          "content": "check [[Tasks]] to learn more",
+          "format": "markdown",
+          "id": 6843,
+          "left": {
+            "id": 6840
+          },
+          "page": {
+            "id": 928,
+            "name": "setting/preferred workflow",
+            "originalName": "setting/preferred workflow"
+          },
+          "parent": {
+            "id": 928
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            },
+            {
+              "id": 928
+            }
+          ],
+          "refs": [
+            {
+              "id": 485
+            }
+          ],
+          "uuid": "6affb0f7-f942-4504-8768-b2f04b4f18c3"
+        }
+      ]
+    ],
+    [
+      {
+        "id": 12,
+        "name": "contents",
+        "originalName": "Contents"
+      },
+      [
+        {
+          "content": "[[Tasks]]",
+          "format": "markdown",
+          "id": 552,
+          "left": {
+            "id": 573
+          },
+          "page": {
+            "id": 12,
+            "name": "contents",
+            "originalName": "Contents"
+          },
+          "parent": {
+            "id": 533
+          },
+          "pathRefs": [
+            {
+              "id": 12
+            },
+            {
+              "id": 330
+            },
+            {
+              "id": 485
+            }
+          ],
+          "refs": [
+            {
+              "id": 485
+            }
+          ],
+          "uuid": "6affb0f0-5d46-475f-956f-33503cb4ff6a"
+        }
+      ]
+    ],
+    [
+      {
+        "id": 520,
+        "name": "markdown",
+        "originalName": "Markdown"
+      },
+      [
+        {
+          "content": "These markers can be set with commands(`/TODO`) \nor shortcut(default `ctrl/cmd+enter`)",
+          "format": "markdown",
+          "id": 4872,
+          "left": {
+            "id": 4878
+          },
+          "page": {
+            "id": 520,
+            "name": "markdown",
+            "originalName": "Markdown"
+          },
+          "parent": {
+            "id": 4860
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            },
+            {
+              "id": 520
+            }
+          ],
+          "uuid": "6affb0f3-b9bf-4b2f-9c5f-e18a95325898"
+        },
+        {
+          "content": "syntax: `TODO` `DOING` `DONE` `LATER` `NOW`",
+          "format": "markdown",
+          "id": 4878,
+          "left": {
+            "id": 4860
+          },
+          "page": {
+            "id": 520,
+            "name": "markdown",
+            "originalName": "Markdown"
+          },
+          "parent": {
+            "id": 4860
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            },
+            {
+              "id": 520
+            }
+          ],
+          "uuid": "6affb0f3-396f-4968-a795-c50d759ae2cf"
+        },
+        {
+          "content": "[[Tasks]] marker",
+          "format": "markdown",
+          "id": 4860,
+          "left": {
+            "id": 4881
+          },
+          "page": {
+            "id": 520,
+            "name": "markdown",
+            "originalName": "Markdown"
+          },
+          "parent": {
+            "id": 4871
+          },
+          "pathRefs": [
+            {
+              "id": 485
+            },
+            {
+              "id": 520
+            }
+          ],
+          "refs": [
+            {
+              "id": 485
+            }
+          ],
+          "uuid": "6affb0f3-8965-4d91-8f53-acdfffd54b65"
+        }
+      ]
+    ]
+  ],
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

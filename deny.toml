@@ -1,0 +1,43 @@
+# Supply-chain gate: `cargo deny check`, run by the `cargo-deny` hook in prek.toml and by `just deny`.
+# Schema reference: https://embarkstudios.github.io/cargo-deny/checks/index.html
+#
+# The file is deliberately short. Every section below is here because it can say something about a
+# real change in this dependency tree; nothing is kept from `cargo deny init`'s template that this
+# repository has no opinion about. Where a rule is `warn` rather than `deny`, the comment says why.
+
+[advisories]
+# Nothing ignored. `cargo deny check advisories` fails on any RUSTSEC advisory that matches a crate in
+# the resolved tree, and on any yanked crate. If a future advisory has no fixed release, add it to
+# `ignore` with one line naming the advisory, the reason, and what would let it be removed again — a
+# bare ID in this list is a rule nobody can re-evaluate later.
+
+[licenses]
+# Derived from `cargo deny list` over the current tree, not from a template:
+#   MIT            39 crates (including both workspace members)
+#   Apache-2.0     31 crates
+#   Unicode-3.0     1 crate  (unicode-ident: `(MIT OR Apache-2.0) AND Unicode-3.0`)
+#   Zlib            1 crate  (foldhash)
+# Three licences in the tree are deliberately absent because a disjunction already covers them:
+# memchr (`Unlicense OR MIT`), r-efi (`MIT OR Apache-2.0 OR LGPL-2.1-or-later`, and only built for
+# UEFI targets), and every `MIT/Apache-2.0` crate. `vcpkg` still ships that pre-SPDX slash form;
+# cargo-deny 0.20 splits it into the two licences, so it needs no `[[licenses.clarify]]` block here.
+# notify is CC0-1.0; its Linux inotify backend and inotify-sys are ISC.
+allow = ["MIT", "Apache-2.0", "Unicode-3.0", "Zlib", "CC0-1.0", "ISC"]
+# The default. Stated so a de-licensed crate cannot pass on a fuzzy text match.
+confidence-threshold = 0.8
+
+[bans]
+# `warn`, not `deny`. Duplicates are a cost, not a defect: `windows-sys` arrives twice through
+# target-specific edges nobody can resolve from this repository, so `deny` would be red forever. The
+# count is still printed on every run, which is what makes a new duplicate visible in a diff of the
+# hook output.
+multiple-versions = "warn"
+# `allow`: this tree states no `*` requirement, and an explicit wildcard is a maintainer decision.
+wildcards = "allow"
+
+[sources]
+# Nothing in this tree comes from anywhere but crates.io and the workspace itself. Both rules are
+# `deny` so that a future `git = "..."` dependency or a private registry has to appear here, in a
+# diff someone reviews, instead of sliding in with a lockfile update.
+unknown-registry = "deny"
+unknown-git = "deny"

@@ -1,0 +1,34 @@
+{
+  "args": [],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.App.getUserConfigs",
+  "result": {
+    "currentGraph": "logseq_local_/home/ubuntu/work/docs",
+    "enabledFlashcards": true,
+    "enabledJournals": false,
+    "me": {
+      "repos": [
+        {
+          "nfs?": true,
+          "url": "logseq_local_/home/ubuntu/work/docs"
+        }
+      ]
+    },
+    "preferredDateFormat": "MMM do, yyyy",
+    "preferredFormat": "markdown",
+    "preferredLanguage": "en-US",
+    "preferredStartOfWeek": 6,
+    "preferredThemeMode": "light",
+    "preferredTodo": "LATER",
+    "preferredWorkflow": "now",
+    "showBrackets": true
+  },
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

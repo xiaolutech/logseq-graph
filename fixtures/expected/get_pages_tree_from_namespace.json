@@ -1,0 +1,377 @@
+{
+  "args": [
+    "Whiteboard"
+  ],
+  "captured_at": "2026-11-20T02:43:01+00:00",
+  "graph": {
+    "journal_files": 75,
+    "markdown_bytes": 442698,
+    "name": "docs",
+    "page_files": 199
+  },
+  "method": "logseq.Editor.getPagesTreeFromNamespace",
+  "result": [
+    {
+      "children": [],
+      "file": {
+        "id": 5638,
+        "path": "pages/Whiteboard___Action Bar.md"
+      },
+      "id": 5639,
+      "name": "whiteboard/action bar",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Action Bar"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5670,
+        "path": "pages/Whiteboard___Canvas.md"
+      },
+      "id": 5570,
+      "name": "whiteboard/canvas",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Canvas"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5673,
+        "path": "pages/Whiteboard___Context Menu.md"
+      },
+      "id": 5674,
+      "name": "whiteboard/context menu",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Context Menu"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5680,
+        "path": "pages/Whiteboard___Dashboard.md"
+      },
+      "id": 5573,
+      "name": "whiteboard/dashboard",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Dashboard"
+    },
+    {
+      "children": [],
+      "id": 5574,
+      "name": "whiteboard/deletion",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Deletion"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5685,
+        "path": "pages/Whiteboard___Embed.md"
+      },
+      "id": 5686,
+      "name": "whiteboard/embed",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Embed"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "file": {
+            "id": 5787,
+            "path": "pages/Whiteboard___Object___iFrame.md"
+          },
+          "id": 5788,
+          "name": "whiteboard/object/iframe",
+          "namespace": {
+            "id": 5566
+          },
+          "originalName": "Whiteboard/Object/iFrame"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5771,
+            "path": "pages/Whiteboard___Object___Image.md"
+          },
+          "id": 5772,
+          "name": "whiteboard/object/image",
+          "namespace": {
+            "id": 5566
+          },
+          "originalName": "Whiteboard/Object/Image"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5775,
+            "path": "pages/Whiteboard___Object___Tweet.md"
+          },
+          "id": 5776,
+          "name": "whiteboard/object/tweet",
+          "namespace": {
+            "id": 5566
+          },
+          "originalName": "Whiteboard/Object/Tweet"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5781,
+            "path": "pages/Whiteboard___Object___Youtube.md"
+          },
+          "id": 5782,
+          "name": "whiteboard/object/youtube",
+          "namespace": {
+            "id": 5566
+          },
+          "originalName": "Whiteboard/Object/Youtube"
+        }
+      ],
+      "file": {
+        "id": 5689,
+        "path": "pages/Whiteboard___Object.md"
+      },
+      "id": 5566,
+      "name": "whiteboard/object",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Object"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "file": {
+            "id": 5790,
+            "path": "pages/Whiteboard___Property___Links.md"
+          },
+          "id": 5791,
+          "name": "whiteboard/property/links",
+          "namespace": {
+            "id": 5793
+          },
+          "originalName": "Whiteboard/Property/Links"
+        }
+      ],
+      "id": 5793,
+      "name": "whiteboard/property",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Property"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5795,
+        "path": "pages/Whiteboard___Quick Add.md"
+      },
+      "id": 5799,
+      "name": "whiteboard/quick add",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Quick Add"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "file": {
+            "id": 5816,
+            "path": "pages/Whiteboard___Tool___Connector.md"
+          },
+          "id": 5817,
+          "name": "whiteboard/tool/connector",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Connector"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5820,
+            "path": "pages/Whiteboard___Tool___Eraser.md"
+          },
+          "id": 5821,
+          "name": "whiteboard/tool/eraser",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Eraser"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5824,
+            "path": "pages/Whiteboard___Tool___Highlight.md"
+          },
+          "id": 5825,
+          "name": "whiteboard/tool/highlight",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Highlight"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5828,
+            "path": "pages/Whiteboard___Tool___Move.md"
+          },
+          "id": 5829,
+          "name": "whiteboard/tool/move",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Move"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5832,
+            "path": "pages/Whiteboard___Tool___Pencil.md"
+          },
+          "id": 5833,
+          "name": "whiteboard/tool/pencil",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Pencil"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5836,
+            "path": "pages/Whiteboard___Tool___Portal.md"
+          },
+          "id": 5797,
+          "name": "whiteboard/tool/portal",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Portal"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5846,
+            "path": "pages/Whiteboard___Tool___Select.md"
+          },
+          "id": 5847,
+          "name": "whiteboard/tool/select",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Select"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "file": {
+                "id": 5854,
+                "path": "pages/Whiteboard___Tool___Shape___Circle.md"
+              },
+              "id": 5855,
+              "name": "whiteboard/tool/shape/circle",
+              "namespace": {
+                "id": 5851
+              },
+              "originalName": "Whiteboard/Tool/Shape/Circle"
+            },
+            {
+              "children": [],
+              "file": {
+                "id": 5857,
+                "path": "pages/Whiteboard___Tool___Shape___Rectangle.md"
+              },
+              "id": 5858,
+              "name": "whiteboard/tool/shape/rectangle",
+              "namespace": {
+                "id": 5851
+              },
+              "originalName": "Whiteboard/Tool/Shape/Rectangle"
+            },
+            {
+              "children": [],
+              "file": {
+                "id": 5861,
+                "path": "pages/Whiteboard___Tool___Shape___Triangle.md"
+              },
+              "id": 5862,
+              "name": "whiteboard/tool/shape/triangle",
+              "namespace": {
+                "id": 5851
+              },
+              "originalName": "Whiteboard/Tool/Shape/Triangle"
+            }
+          ],
+          "file": {
+            "id": 5850,
+            "path": "pages/Whiteboard___Tool___Shape.md"
+          },
+          "id": 5851,
+          "name": "whiteboard/tool/shape",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Shape"
+        },
+        {
+          "children": [],
+          "file": {
+            "id": 5864,
+            "path": "pages/Whiteboard___Tool___Text.md"
+          },
+          "id": 5865,
+          "name": "whiteboard/tool/text",
+          "namespace": {
+            "id": 5796
+          },
+          "originalName": "Whiteboard/Tool/Text"
+        }
+      ],
+      "file": {
+        "id": 5811,
+        "path": "pages/Whiteboard___Tool.md"
+      },
+      "id": 5796,
+      "name": "whiteboard/tool",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Tool"
+    },
+    {
+      "children": [],
+      "file": {
+        "id": 5868,
+        "path": "pages/Whiteboard___Toolbar.md"
+      },
+      "id": 5812,
+      "name": "whiteboard/toolbar",
+      "namespace": {
+        "id": 480
+      },
+      "originalName": "Whiteboard/Toolbar"
+    }
+  ],
+  "schema": "logseq-graph/official-api-baseline/1",
+  "summarized": false
+}

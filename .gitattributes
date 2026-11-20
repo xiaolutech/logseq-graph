@@ -1,0 +1,15 @@
+# Line endings: one rule for the whole tree.
+* text=auto eol=lf
+
+# Fixtures are byte-for-byte captures: the parser round-trips them and a test compares bytes.
+# Git must never rewrite them, on any platform.
+fixtures/** -text
+
+# Images and other binaries: never diff, never convert.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
