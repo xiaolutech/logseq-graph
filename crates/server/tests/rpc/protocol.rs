@@ -373,23 +373,23 @@ fn a_failed_poll_fails_closed_and_a_later_poll_recovers() {
         std::thread::sleep(Duration::from_millis(10));
     }
 
+    // `fs::write` truncates before it writes, so a poll can observe the file empty and answer a
+    // healthy, block-less page before the repaired text lands; only the repaired text ends the wait.
     sandbox.write("pages/alpha.md", "- repaired by another process\n");
     let deadline = Instant::now() + TIMEOUT;
     loop {
         let response = server.call(METHODS[4], json!(["alpha"]));
+        let body = response.body.clone();
         if response.status == 200 {
             let tree = response.result();
-            assert_eq!(
-                tree["blocks"][0]["text"],
-                json!("repaired by another process")
-            );
-            assert_eq!(tree["stale"], json!(false));
-            return;
+            if tree["blocks"][0]["text"] == json!("repaired by another process") {
+                assert_eq!(tree["stale"], json!(false));
+                return;
+            }
         }
         assert!(
             Instant::now() < deadline,
-            "a successful poll did not clear staleness; last response: {}",
-            response.body
+            "a successful poll did not clear staleness; last response: {body}"
         );
         std::thread::sleep(Duration::from_millis(10));
     }
