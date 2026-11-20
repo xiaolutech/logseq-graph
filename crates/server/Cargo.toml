@@ -1,10 +1,16 @@
 [package]
 name = "logseq-graph-cli"
-version = "0.0.0"
+version = "0.0.1"
 edition = "2021"
 rust-version = "1.89"
 license = "MIT"
+description = "CLI and loopback Logseq API server for file-based Logseq graphs"
+repository = "https://github.com/xiaolutech/logseq-graph"
 publish = false
+
+# Not on crates.io; released as prebuilt binaries on GitHub Releases by dist.
+[package.metadata.dist]
+dist = true
 
 [[bin]]
 name = "logseq-graph"

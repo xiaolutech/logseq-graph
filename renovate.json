@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>zhaochunqi/renovate-config"]
+  "extends": ["github>zhaochunqi/renovate-config"],
+  "packageRules": [
+    {
+      "description": "dist generates release.yml; update it with `dist init` after bumping cargo-dist-version, not by hand",
+      "matchFileNames": [".github/workflows/release.yml"],
+      "enabled": false
+    }
+  ]
 }

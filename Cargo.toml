@@ -17,3 +17,8 @@ unimplemented = "warn"
 # and ordinary dev builds are unchanged.
 [profile.test]
 opt-level = 1
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

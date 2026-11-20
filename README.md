@@ -29,7 +29,14 @@ See the [engine reference](docs/engine-reference.md) for detailed contracts and 
 
 ## Install and build
 
-From a checkout, install the tools pinned in `mise.toml` and enable hooks:
+Prebuilt binaries for macOS (arm64, x86_64) and Linux (x86_64) are on
+[GitHub Releases](https://github.com/xiaolutech/logseq-graph/releases). To install the latest one:
+
+```sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/xiaolutech/logseq-graph/releases/latest/download/logseq-graph-cli-installer.sh | sh
+```
+
+To build from source instead: from a checkout, install the tools pinned in `mise.toml` and enable hooks:
 
 ```sh
 # Only if mise is not installed:
