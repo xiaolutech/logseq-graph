@@ -6,6 +6,14 @@
       "description": "dist generates release.yml; update it with `dist init` after bumping cargo-dist-version, not by hand",
       "matchFileNames": [".github/workflows/release.yml"],
       "enabled": false
+    },
+    {
+      "description": "A 0.x minor release is breaking under Cargo's semver, so treat it like a major: its own PR, never automerged",
+      "matchCurrentVersion": "/^[~^=]?0\\./",
+      "matchUpdateTypes": ["minor"],
+      "groupName": null,
+      "groupSlug": null,
+      "automerge": false
     }
   ]
 }
