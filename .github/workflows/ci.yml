@@ -10,10 +10,22 @@ on:
 permissions:
   contents: read
 
+# A newer push to the same branch or pull request supersedes the running check; every main commit
+# still gets its own result.
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
 jobs:
   check:
     name: Check (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
+    # A `devin/**` branch already runs on push; its pull request from this repository would check the
+    # same commit a second time.
+    if: >-
+      github.event_name != 'pull_request' ||
+      github.event.pull_request.head.repo.full_name != github.repository ||
+      !startsWith(github.head_ref, 'devin/')
     strategy:
       fail-fast: false
       matrix:
