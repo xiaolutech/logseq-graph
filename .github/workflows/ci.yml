@@ -43,6 +43,11 @@ jobs:
       - name: Install Rust lint components
         run: mise exec -- rustup component add rustfmt clippy
       - uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+        with:
+          # Profile settings in Cargo.toml do not change this action's cache key, so a cache built
+          # before `[profile.test] opt-level = 1` would be restored as a full match and never
+          # replaced. Bump this when a profile change should start a fresh cache.
+          key: test-opt-level-1
       - name: Run repository checks
         # Match the canonical paths returned by the graph on macOS (/private/var).
         run: TMPDIR="$(cd "$RUNNER_TEMP" && pwd -P)" mise exec -- just check
