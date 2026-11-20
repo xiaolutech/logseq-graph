@@ -376,7 +376,7 @@ fn user_configs_answers_the_graph_facts_and_omits_app_state() {
 #[test]
 fn user_configs_reads_the_date_format_per_call() {
     let sandbox = sandbox();
-    let server = Server::start(&sandbox.graph_root(), "shape-configs-fresh");
+    let server = Server::start_without_watcher(&sandbox.graph_root(), "shape-configs-fresh");
     assert_eq!(
         server.call("logseq.App.getUserConfigs", json!([])).result()["preferredDateFormat"],
         json!("yyyy-MM-dd EEEE")

@@ -102,6 +102,16 @@ impl Server {
         server
     }
 
+    /// Start `serve` with no watcher and no poll inside the test's lifetime, and wait until the
+    /// startup scan has finished. A test that edits a file after the server started and then asserts
+    /// what the index still holds must use this: with the watcher on, a notification or a poll can
+    /// reproject the edit at any moment and the assertion races it.
+    fn start_without_watcher(graph_root: &Path, label: &str) -> Self {
+        let server = Self::spawn_with_mode(graph_root, label, 600_000, true);
+        server.wait_until_ready(label);
+        server
+    }
+
     /// Start `serve` and return once its socket is bound, which is before the graph is open.
     fn spawn(graph_root: &Path, label: &str) -> Self {
         Self::spawn_with_poll_interval(graph_root, label, 1_000)

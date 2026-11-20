@@ -53,7 +53,7 @@ fn get_favorites_matches_logseq_App_getUserConfigs() {
 #[test]
 fn get_page_version_is_out_of_scope_and_keeps_its_version_tokens() {
     let sandbox = Sandbox::new("page-version");
-    let server = Server::start(&sandbox.graph_root(), "page-version");
+    let server = Server::start_without_watcher(&sandbox.graph_root(), "page-version");
 
     let result = server.call(METHODS[9], json!(["alpha"])).result();
     assert_eq!(result["exists"], json!(true), "alpha is a page: {result}");
@@ -271,8 +271,7 @@ fn get_page_snapshot_states_a_selector_only_for_file_ids() {
 #[test]
 fn get_page_snapshot_answers_the_bytes_edited_since_the_scan() {
     let sandbox = Sandbox::new("snapshot-current");
-    let server = Server::spawn_with_mode(&sandbox.graph_root(), "snapshot-current", 600_000, true);
-    server.wait_until_ready("snapshot-current");
+    let server = Server::start_without_watcher(&sandbox.graph_root(), "snapshot-current");
 
     let indexed = server.call(METHODS[10], json!(["alpha"])).result();
     let indexed_version = indexed["version"].as_str().expect("a version").to_owned();
@@ -350,7 +349,7 @@ fn get_page_snapshot_refuses_an_extra_freshness_policy() {
 #[test]
 fn get_page_snapshot_reports_an_undecodable_file_as_a_structured_error() {
     let sandbox = Sandbox::new("snapshot-undecodable");
-    let server = Server::start(&sandbox.graph_root(), "snapshot-undecodable");
+    let server = Server::start_without_watcher(&sandbox.graph_root(), "snapshot-undecodable");
     fs::write(
         sandbox.graph_root().join("pages/alpha.md"),
         [0xff, 0xfe, 0x00],
