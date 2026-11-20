@@ -256,7 +256,7 @@ fn register_search_key(conn: &Connection) -> Result<(), IndexError> {
         "search_key",
         1,
         FunctionFlags::SQLITE_UTF8 | FunctionFlags::SQLITE_DETERMINISTIC,
-        |ctx: &SqlContext<'_>| -> rusqlite::Result<ToSqlOutput<'static>> {
+        |ctx: &mut SqlContext<'_>| -> rusqlite::Result<ToSqlOutput<'static>> {
             let raw = ctx.get_raw(0);
             if raw == ValueRef::Null {
                 return Ok(ToSqlOutput::Owned(SqlValue::Null));
