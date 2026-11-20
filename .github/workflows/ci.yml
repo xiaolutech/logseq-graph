@@ -37,7 +37,7 @@ jobs:
           persist-credentials: false
           # Check authored commit subjects, not GitHub's synthetic PR merge subject.
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
-      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+      - uses: jdx/mise-action@236a21c3b91f5db6d4e174b348674a0f0caac06d # v5.2.9
         with:
           version: 2026.11.9
       - name: Install Rust lint components
