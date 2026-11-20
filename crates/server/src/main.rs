@@ -443,6 +443,23 @@ fn execute(
             }
         }
 
+        Command::Namespace { name, tree } => {
+            let pages = if *tree {
+                graph
+                    .reads(freshness)
+                    .pages_tree_from_namespace(name)
+                    .map_err(|error| Failure::Runtime(error.to_string()))?
+            } else {
+                graph
+                    .reads(freshness)
+                    .pages_from_namespace(name)
+                    .map_err(|error| Failure::Runtime(error.to_string()))?
+            };
+            for page in pages.value() {
+                line(&mut out, format_args!("{page}"));
+            }
+        }
+
         Command::Search { query, limit } => {
             let hits = graph
                 .reads(freshness)

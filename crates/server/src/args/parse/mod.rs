@@ -27,6 +27,7 @@ pub(crate) fn parse(args: impl IntoIterator<Item = String>) -> Result<Parsed, Us
     let mut poll_interval: Option<Duration> = None;
     let mut no_watch = false;
     let mut date = false;
+    let mut tree = false;
     let mut today: Option<JournalDate> = None;
     let mut words: Vec<String> = Vec::new();
     let mut args = args.into_iter();
@@ -102,6 +103,7 @@ pub(crate) fn parse(args: impl IntoIterator<Item = String>) -> Result<Parsed, Us
                 poll_interval = Some(Duration::from_millis(milliseconds));
             }
             "--date" => date = true,
+            "--tree" => tree = true,
             "--today" => {
                 let value = take_value(&mut args, inline, "--today")?;
                 today = Some(parse_day(&value)?);
@@ -123,6 +125,7 @@ pub(crate) fn parse(args: impl IntoIterator<Item = String>) -> Result<Parsed, Us
             poll_interval,
             no_watch,
             date,
+            tree,
             today,
         },
     )?;
@@ -170,6 +173,20 @@ mod tests {
             }
         );
         assert_eq!(invocation(&["tags"]).command, Command::Tags);
+        assert_eq!(
+            invocation(&["namespace", "a"]).command,
+            Command::Namespace {
+                name: "a".to_owned(),
+                tree: false
+            }
+        );
+        assert_eq!(
+            invocation(&["namespace", "a", "--tree"]).command,
+            Command::Namespace {
+                name: "a".to_owned(),
+                tree: true
+            }
+        );
         assert_eq!(
             invocation(&["tag", "project"]).command,
             Command::Tag {

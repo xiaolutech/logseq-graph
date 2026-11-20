@@ -46,6 +46,8 @@ pub(crate) enum Command {
     Tags,
     /// Pages that use one tag.
     Tag { name: String },
+    /// Pages under one namespace, directly or through the whole subtree.
+    Namespace { name: String, tree: bool },
     /// Blocks whose text contains a query.
     Search { query: String, limit: u32 },
     /// Pages whose own name or `alias::` value contains a name.
@@ -160,6 +162,7 @@ impl Command {
             | Self::Backlinks { .. }
             | Self::Tags
             | Self::Tag { .. }
+            | Self::Namespace { .. }
             | Self::Search { .. }
             | Self::Find { .. }
             | Self::Query { .. }
@@ -185,6 +188,7 @@ mod tests {
             &["backlinks", "alpha"],
             &["tags"],
             &["tag", "project"],
+            &["namespace", "github.com/zhaochunqi/home-repo"],
             &["search", "needle"],
             &["block", id],
         ] {

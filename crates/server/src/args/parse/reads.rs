@@ -10,6 +10,7 @@ pub(super) fn build(
     arguments: &[String],
     limit: Option<u32>,
     date: bool,
+    tree: bool,
     today: Option<JournalDate>,
 ) -> Result<Command, UsageError> {
     Ok(match name {
@@ -54,6 +55,14 @@ pub(super) fn build(
                 name: one_argument("tag", "a tag name", arguments)?,
             };
             reject_limit("tag", limit)?;
+            command
+        }
+        "namespace" => {
+            let command = Command::Namespace {
+                name: one_argument("namespace", "a namespace name", arguments)?,
+                tree,
+            };
+            reject_limit("namespace", limit)?;
             command
         }
         "search" => Command::Search {
@@ -176,6 +185,39 @@ mod tests {
                 assert_eq!(value, "not-a-uuid");
             }
             other => panic!("a malformed id is a usage error, not {other:?}"),
+        }
+    }
+
+    #[test]
+    fn namespace_accepts_a_multi_segment_name_and_the_tree_flag() {
+        assert_eq!(
+            invocation(&["namespace", "github.com/zhaochunqi/home-repo"]).command,
+            Command::Namespace {
+                name: "github.com/zhaochunqi/home-repo".to_owned(),
+                tree: false
+            }
+        );
+        assert_eq!(
+            invocation(&["namespace", "github.com/zhaochunqi/home-repo", "--tree"]).command,
+            Command::Namespace {
+                name: "github.com/zhaochunqi/home-repo".to_owned(),
+                tree: true
+            }
+        );
+    }
+
+    #[test]
+    fn the_tree_flag_only_applies_to_namespace() {
+        for command in ["pages", "tree", "serve"] {
+            let words = vec![command, "--tree"];
+            assert_eq!(
+                parse_words(&words),
+                Err(UsageError::CommandNotForOption {
+                    option: "--tree",
+                    command: command.to_owned()
+                }),
+                "{words:?} must be refused rather than answered"
+            );
         }
     }
 }

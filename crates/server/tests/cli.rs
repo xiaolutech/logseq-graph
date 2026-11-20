@@ -366,6 +366,50 @@ fn tags_and_tag_agree() {
 }
 
 #[test]
+fn namespace_lists_direct_children_and_the_whole_subtree() {
+    let sandbox = Sandbox::new("namespace");
+    sandbox.write("pages/github.com___zhaochunqi___home-repo.md", "- root\n");
+    sandbox.write(
+        "pages/github.com___zhaochunqi___home-repo___AGENTS.md",
+        "- instructions\n",
+    );
+    sandbox.write(
+        "pages/github.com___zhaochunqi___home-repo___wiki___shared___repo-status-protocol.md",
+        "- protocol\n",
+    );
+    sandbox.write(
+        "pages/github.com___zhaochunqi___elsewhere.md",
+        "- another namespace\n",
+    );
+
+    let direct = stdout_of(&sandbox.run(&["namespace", "github.com/zhaochunqi/home-repo"]));
+    assert_eq!(
+        direct,
+        "github.com/zhaochunqi/home-repo/AGENTS\n\
+         github.com/zhaochunqi/home-repo/wiki\n",
+        "only the next level answers without --tree"
+    );
+
+    let tree = stdout_of(&sandbox.run(&["namespace", "github.com/zhaochunqi/home-repo", "--tree"]));
+    assert_eq!(
+        tree,
+        "github.com/zhaochunqi/home-repo/AGENTS\n\
+         github.com/zhaochunqi/home-repo/wiki\n\
+         github.com/zhaochunqi/home-repo/wiki/shared\n\
+         github.com/zhaochunqi/home-repo/wiki/shared/repo-status-protocol\n",
+        "--tree includes every deeper level of a multi-segment namespace"
+    );
+
+    assert_eq!(
+        stdout_of(&sandbox.run(&["namespace", "missing"])),
+        "",
+        "an unknown namespace lists nothing and still succeeds"
+    );
+
+    stderr_of(&sandbox.run(&["pages", "--tree"]), 2);
+}
+
+#[test]
 fn search_finds_the_block_and_limit_bounds_the_hits() {
     let sandbox = populated("search");
 

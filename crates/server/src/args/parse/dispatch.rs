@@ -12,6 +12,7 @@ pub(super) struct Options {
     pub(super) poll_interval: Option<Duration>,
     pub(super) no_watch: bool,
     pub(super) date: bool,
+    pub(super) tree: bool,
     pub(super) today: Option<JournalDate>,
 }
 
@@ -24,6 +25,7 @@ pub(super) fn build(words: &[String], options: Options) -> Result<Command, Usage
         poll_interval,
         no_watch,
         date,
+        tree,
         today,
     } = options;
     let Some(name) = words.first().map(String::as_str) else {
@@ -60,6 +62,15 @@ pub(super) fn build(words: &[String], options: Options) -> Result<Command, Usage
         });
     }
 
+    // `--tree` widens the `namespace` listing to every depth. No other command has a namespace
+    // subtree to widen, so accepting it there would answer while ignoring what the caller asked.
+    if tree && name != "namespace" {
+        return Err(UsageError::CommandNotForOption {
+            option: "--tree",
+            command: name.to_owned(),
+        });
+    }
+
     // `--today` moves the day a query's relative operands count from, and no other command has a
     // day to move: refusing beats accepting a date that would change nothing.
     if today.is_some() && name != "query" {
@@ -71,7 +82,9 @@ pub(super) fn build(words: &[String], options: Options) -> Result<Command, Usage
 
     match name {
         "info" | "pages" | "page" | "tree" | "backlinks" | "tags" | "tag" | "search" | "find"
-        | "query" | "block" => super::reads::build(name, arguments, limit, date, today),
+        | "namespace" | "query" | "block" => {
+            super::reads::build(name, arguments, limit, date, tree, today)
+        }
         "serve" => super::serve::build(
             arguments,
             freshness_flag,

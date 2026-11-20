@@ -37,6 +37,7 @@ commands:
   backlinks <name>              pages that reference <name>, with the referencing block
   tags                          every tag and how many pages use it
   tag <name>                    pages that use one tag
+  namespace <name> [--tree]     pages under one namespace; --tree includes every deeper level
   search <query> [--limit <n>]  blocks whose text contains <query> (default 20); each hit leads
                                 with the selector that names the block again
   find <name> [--limit <n>]     pages whose own name or alias:: value contains <name> (default 20);
