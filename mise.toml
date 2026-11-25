@@ -9,7 +9,7 @@ rust = "1.99.1"
 # change to prek.toml, and `prek install --force` after upgrading this version.
 prek = "0.5.10"
 # Spelling checker, used by the pre-commit hook and `just check`.
-typos = "1.52.1"
+typos = "1.52.2"
 # The scripts under scripts/ are plain stdlib Python. Pinned so the hooks and `just check`
 # do not depend on whichever python3 the machine happens to resolve first.
 python = "3.15.2"
