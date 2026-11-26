@@ -4,7 +4,7 @@
 # The compiler the workspace builds and ships with. The declared MSRV (`rust-version = "1.89"`) is
 # a separate, on-demand check — `just msrv` — deliberately not pinned here: it needs a second
 # toolchain and a full compile, which no commit should pay.
-rust = "1.99.1"
+rust = "1.100.0"
 # Git hook runner: replaced the hand-written .githooks/ scripts. Run `prek install` after any
 # change to prek.toml, and `prek install --force` after upgrading this version.
 prek = "0.5.10"
